@@ -1,0 +1,315 @@
+
+[[publish_your_book]]
+== Publish Your Book
+
+Your pages have been meticulously constructed. Your design is gorgeous. Your table of contents is a navigational miracle. Your widgets are a revelation. Now comes the fun part: it’s time to publish your book! Or maybe it’s not so fun.... If you want to self-publish in the iBookstore, you’re going to have to jump through a few hoops first. In this chapter, you’ll learn how to keep the hoop jumping manageable. You’ll see what Apple’s requirements are and how you can go about meeting them.
+
+
+[[previewing_your_book_on_the_ipad]]
+=== Previewing Your Book on the iPad
+
+Before you think about publishing, take a few minutes to preview your creation on the iPad to make sure that everything is showing up and working as you expect. Happily, Author has a simple tool that makes previewing your work on an actual device easy as pie. Just follow these steps:
+
+
+. Make sure you’ve installed iBooks 2.0, link:$$http://itunes.apple.com/us/app/ibooks/id364709193?mt=8$$[available in the App Store], on your iPad.
+
+
+. Use a USB cord to connect your iPad to your Mac.
+
+
+. Open iBooks on your iPad.
+
+
+. Back in Author, click the Preview icon, which is a small thumbnail of an iPad screen.
+
+The file will immediately start downloading to iBooks on your iPad. Download status is represented by a small purple progress bar within the iBooks interface.
+
+[[ch06note01]]
+[NOTE]
+====
+You can limit the preview to a single chapter by highlighting that chapter in the Author sidebar and then selecting File → Preview Current Section Only.
+
+
+====
+
+
+Carefully preview each page, and be sure to take the time to view all sections in both portrait and landscape views. If anything looks amiss, you can always make adjustments in Author and then push out another update to iBooks. Author makes updating and retesting so seamless that you can easily play around with multiple iterations of your page layouts until everything looks just right. Don’t forget to check the following:
+
+
+* All page layouts, in both portrait and landscape views, should be working as expected.
+
+
+* All interactive widgets should be functional.
+
+
+* All index and glossary entries should be successfully linked.
+
+
+* The table of contents should be structured and functioning correctly; all sections should be nested correctly within chapters.
+
+
+* All typos and grammatical errors should have been corrected—proofread, proofread, proofread.
+
+[[share_itexclamation_mark]]
+.Share It!
+****
+Share It! Even after you think you’ve fixed everything and attended to every last detail, ask a trusted friend or colleague to review the pages for you. Even the most experienced publishing professional will tell you that another pair of eyes is essential in catching errors. Author makes this particularly easy with the Share option, available from the main menu. Just select Share → Send via Mail and Author will automatically export an iBooks Author file for Mac, an iBooks for iPad file, or a PDF and attach it to a message in your default email application. Be warned, though: the iBooks file options can be too large for email, so a PDF might be a better option. Those reviewing the PDF file will miss out on the interactive features that your book offers, but they’ll still be able to review all text, images, and landscape layout. You can also export a plain text file, which might be the ideal choice to send to your favorite proofreader.
+
+
+****
+
+
+As you’re previewing your book on your iPad, link:$$http://ipadinsight.com/ipad-basics/ipad-basics-how-to-take-a-screenshot$$[take some screenshots] that you can use when you upload your book via iTunes Producer, as described in &lt;&lt;packaging_up_your_book_with_itunes_produ&gt;&gt;. Once you’ve finished your review, you’re ready to submit your book to the Apple iBookstore.
+
+
+[[submitting_your_book_to_the_ibookstore]]
+=== Submitting Your Book to the iBookstore
+
+As you make your way through the occasionally complex process of publishing your book to the iBookstore, you might amuse yourself by imaging that you are putting together a 1000-piece puzzle. Just when you think you’ll never get it, all the pieces start to snap into place.
+
+To view a simplified list of the submission requirements, click on the Publish icon in the Author interface and then choose “Learn more about publishing to the iBookstore.” When you choose this option, you open the iBooks Author Help Center and are taken to the “Publish your book to the iBookstore” section. The bulleted list of requirements that follows seems simple enough, but each step contains its own set of decisions and potential stumbling blocks:
+
+
+* Set up an account in iTunes Connect (i.e., an iBookstore seller account).
+
+
+* Download and install link:$$http://www.apple.com/itunes/go/labelconnect/itunesproducer$$[iTunes Producer].
+
+
+* Establish an active contract with Apple.
+
+
+* Prepare an excerpted sample version of your book.
+
+
+* Publish to the iBookstore.
+
+Seems simple enough, right? In some respects, it is simple, but Apple does not document all of the details in one place, making the submission process a little tricky, especially the first time you go through it. The following sections will help you navigate the process and make the best choices for you and your books.
+
+
+[[choosing_between_a_paid_and_free_account]]
+=== Choosing Between a Paid and Free Account
+
+The process for submitting a book to the iBookstore is influenced by whether you want to sell your books or give them away for free. You start the submission process by link:$$https://itunesconnect.apple.com/WebObjects/iTunesConnect.woa/wa/bookSignup$$[applying for an account on iTunes Connect]. Making the choice between a Free Books Account and a Paid Books Account is your first big decision (&lt;&lt;choose_wiselydot&gt;&gt;) and it will influence all of the steps that follow.
+
+[[choose_wiselydot]]
+.Choose wisely.
+image::figs/web/0601.png[]
+
+You can offer both paid and free books through a Paid Books Account, but all books “sold” through a Free Books Account must be given away for free. Given those options, a Paid Books Account might seem like the obvious choice. However, there is considerably more red tape in setting up a Paid Books Account. Setting up a Free Books Account, on the other hand, takes little more than an Apple ID, which you already have if you’ve got an iTunes account.
+
+[[good_to_see_youexclamation_mark_isbn_too]]
+.Good to See You! ISBN Too Long!
+****
+Good to See You! ISBN Too Long! An ISBN is an identifier that is unique to your book and is required by nearly all book retail channels, including the iBookstore. If you already have an ISBN for a print version of your book, you still must acquire an ISBN for the digital version of your book. Apple addresses this question directly in their link:$$http://www.apple.com/itunes/content-providers/book-faq.html$$[FAQ for book publishers]: “Print and digital editions of the same book must have different ISBNs.”
+
+Many publishers typically purchase ISBNs in large blocks of thousands. Over the last couple of years, purchasing a single ISBN has become easier. In the US, Bowker has a link:$$http://www.isbn.org/standards/home/index.asp$$[website service] for this very task, which you can use to purchase an ISBN for $125. That price goes down if you purchase ISBNs in bulk. For example, you can buy link:$$https://www.myidentifiers.com/isbn/main$$[10 ISBNs for $250], which you should definitely consider if you’re planning to work on more than one book (and who isn’t!). Non-US residents can find out where to purchase ISBNs by looking up their link:$$http://www.isbn-international.org/agency$$[national agency].
+
+Wiley has a link:$$http://www.dummies.com/how-to/content/obtaining-an-isbn-for-your-selfpublished-book.html$$[nice primer] on ISBNs for self-publishers if you’d like to learn more.
+
+
+****
+
+
+When you set up a Paid Books Account, in addition to the requirements listed in the previous section, be prepared to provide information about the following:
+
+
+* A US Tax ID, which you can apply for at the link:$$http://www.irs.gov/businesses/small/article/0,id=97860,00.html$$[IRS website]
+
+
+* An ISBN that is unique to the digital version of the book (see the sidebar for more information about ISBNs)
+
+
+* An account in the iTunes Store, with a credit card on file
+
+Somewhat ominously, Apple informs you early in the process of applying for a Paid Books Account that you may be refused _even if you meet all of the requirements_:
+
+[[ch06note02a]]
+[NOTE]
+====
+Meeting these requirements and submitting an application does not guarantee that Apple will work directly with you. You may still be referred to an Apple-approved aggregator.
+
+
+====
+
+
+There is a further subtext to this short message that you should consider up front: you are entering into an agreement with Apple and, once you have, you are bound by their rules. Furthermore, there is some risk that you will go to the trouble of creating your book, applying for an account, and submitting your book and it will not be accepted for sale in the iBookstore. While the review guidelines for books created with Author are still murky at the time of this writing, Apple routinely rejects iPhone and iPad applications for reasons such as poor quality and objectionable content. There is no reason to think that they won’t hold book creators to the same standards.
+
+
+[[ch06note02]]
+
+[WARNING]
+====
+And don’t forget—Apple takes 30 percent of every sale you make through the iBookstore. Also, the iBooks Author EULA prohibits the sale of a file created with Author in any channel other than the iBookstore, although you can give it away for free (this restriction applies to the file format, _not_ the content).
+
+
+====
+
+
+If you decide that creating a Paid Account isn’t right for your first project, you can always skip it, create a Free Account and give your book away for free (perhaps as a promotional vehicle for the print version?), and apply for a Paid Account at a later date.
+
+You can potentially avoid an iBookstore seller account altogether and choose to go through one of link:$$https://itunesconnect.apple.com/WebObjects/iTunesConnect.woa/wo/2.0.0.9.7.3.1.11.1.0.1$$[Apple’s aggregators], each one of which has its own application process and potential setup and distribution fees. Be aware that, at the time of this writing, it is unclear how well positioned these aggregators are for distributing _.ibooks_ files. The applications focus on generic EPUB rather than Apple’s new format. All things considered, it seems that setting up an iBookstore account is your best bet.
+
+
+[[creating_the_sample_book]]
+=== Creating the Sample Book
+
+Most major ebook retail channels now require anyone publishing an ebook to offer sample content. While in some cases the retailer will handle this step for you, with iBooks Author you must create your own sample book and include it with the book submission (&lt;&lt;get_sample_button_is_hard_to_misssemicol&gt;&gt;). Creating a sample version of your book is extra work for you, but it puts you in control of what appears as sample content. It is therefore an opportunity to connect with potential new readers.
+
+[[get_sample_button_is_hard_to_misssemicol]]
+.The Get Sample button is hard to miss; sample content is a requirement for all books in the iBookstore.
+image::figs/web/0602.png[]
+
+So what belongs in your sample chapter? Readers (and your potential customers!) will download your sample chapter and browse through just a couple of pages. If something doesn’t grab them right away, they will move on to the next sample. Think carefully about the best features of your book, and make sure they’re the first thing a reader sees when she opens the book in iBooks. Here are some things to consider when choosing what to include in your sample:
+
+Design:: If your book is highly designed with complex page layouts, include the very best layouts in your sample.
+
+Interactivity:: Perhaps you’ve crafted an especially rich interactive experience for readers. If so, include a couple of those widgets right up front so that readers know your book will be something that they experience, not just consume.
+
+Your expertise, experience, and personality:: Consider putting yourself front and center. Maybe the first thing readers see when they open the sample is a great picture of you, with a biography or list of credentials.
+
+Unique promotional content:: There’s no reason you couldn’t create a couple of special pages especially for the sample. Give a full page or two of what readers can expect from your book and mix in some screenshots from pages that _aren’t_ included in the sample pages.
+
+Once you’ve decided what to include in your sample book, actually creating it shouldn’t be too difficult if you’ve come this far. You can either simply delete everything except for the pages you don’t want in your sample or create an entirely new book and copy and paste sections or chapters into that book. If you choose the latter option, Author makes copying easy: simply right-click on the first page of any section or chapter thumbnail in the pages panel, and you will see the option to copy that section or chapter. Note that you cannot copy individual pages, so you will need to copy and paste at the section or chapter level.
+
+
+[[ch06note03]]
+
+[WARNING]
+====
+If you set up your text boxes to flow together (see &lt;&lt;text_flow_and_tags&gt;&gt; in &lt;&lt;text&gt;&gt;), then you’ll have to be careful with deleting pages. Depending on where you choose to start your sample, when you delete the pages before that, your text will jump forward to start in the text boxes that are left, shifting everything further back. You’ll have to delete the text in addition to the pages themselves.
+
+
+====
+
+
+Once you have the sample ready, choose File → Export... and save it with the name of your choice as an _.ibooks_ file. One more piece of the puzzle is in place!
+
+
+[[packaging_up_your_book_with_itunes_produ]]
+=== Packaging Up Your Book with iTunes Producer
+
+To load your book to the iBookstore, you use a separate application called iTunes Producer, which you will only have access to after you have set up your Paid or Free Books Account.
+
+
+[[installing_producer_and_creating_a_packa]]
+==== Installing Producer and Creating a Package File
+
+Once your account is created and approved by Apple, you can download Producer via link:$$http://itunesconnect.apple.com$$[iTunes Connect], a portal for managing your books that you access through a standard Internet browser (&lt;&lt;itunes_connect_allows_you_to_manage_and&gt;&gt;). When you first log into iTunes Connect, take a moment to look around. Once you’ve submitted your book for publication in the iBookstore, you can use iTunes Connect to check the status of a book (whether it has been approved for sale, for example). You can also use the portal to track sales, make adjustments to the metadata of already submitted books, and so on. For now, however, you’re probably most interested in getting your book submitted, and to do that, you’ll need to download and install iTunes Producer. Within iTunes Connect, click on “Deliver Your Content” and you can grab the _.dmg_ file for installation on your Mac.
+
+[[itunes_connect_allows_you_to_manage_and]]
+.iTunes Connect allows you to manage and track books that you’ve submitted to Apple for publication in the iBookstore.
+image::figs/web/0603.png[]
+
+Once iTunes Producer is installed, open it up and log in with the same account you used to access iTunes Connect. Stay logged in and leave iTunes Producer open, but switch back over to iBooks Author. On the iBooks Author toolbar, click the Publish icon (or you can use the main menu and select File → Publish if you’ve opted to remove that icon from your toolbar), and your book will start to export to an _.itmsp_ file, which is an Apple iTunes Store package file. This package file will ultimately contain everything that you need to submit your book to the iBookstore, including the _.ibooks_ book file, the sample book (which you’ll see how to add below), and all associated metadata.
+
+If you are already logged into Producer, you will be taken to that application immediately when you choose the Publish option within iBooks Author and the _.itmsp_ file will be created automatically. If that doesn’t happen for some reason, you can simply save the _.itmsp_ file to the location of your choice. Then, open or switch to Producer, log in (if necessary), and choose the “Open Package...” option. You can then choose the _.itmsp_ file that you exported from iBooks Author.
+
+
+[[adding_metadata]]
+==== Adding Metadata
+
+In iTunes Producer, you add all of the metadata associated with your book (stuff like title, author name, price, and so on). Some of the metadata is required for submission to Apple, while you can ignore other items if you choose. &lt;&lt;use_itunes_producer_to_enter_metadata_an&gt;&gt; shows the basic interface for entering metadata in Producer for a Paid Books Account.
+
+[[use_itunes_producer_to_enter_metadata_an]]
+.Use iTunes Producer to enter metadata and load additional assets, such as your sample book.
+image::figs/web/0604.png[]
+
+For a quick peek of which metadata fields are required for submission to the iBookstore, you can click on the Delivery button within Producer, as shown in &lt;&lt;you_wonapostrophet_be_able_to_submit_you&gt;&gt;.
+
+[[you_wonapostrophet_be_able_to_submit_you]]
+.You won’t be able to submit your book if you don’t provide the minimum metadata.
+image::figs/web/0605.png[]
+
+The required metadata fields for a Paid Account are as follows:
+
+
+* ISBN
+
+
+* Title
+
+
+* The language in which the book is written
+
+
+* A description of the book
+
+
+* The publisher
+
+
+* The publication date
+
+
+* The number of pages
+
+
+* Book category and subject
+
+
+* The author
+
+
+* Territory rights (i.e., the places you want to sell the book)
+
+
+* Price (not shown in &lt;&lt;you_wonapostrophet_be_able_to_submit_you&gt;&gt;, but price appears as a requirement after you enter the territory rights)
+
+If you opted for a Free Books Account, you don’t need (or even have the option) to enter an ISBN. Also, you will not see the Rights &amp; Pricing tab, Related Products tab, or the Pre-order preview option (as shown in &lt;&lt;you_wonapostrophet_be_able_to_submit_you&gt;&gt;). Otherwise, the iTunes Producer interface and requirements are the same.
+
+You can jump directly to the field within Producer by double-clicking on one of the items in the Delivery window panel (&lt;&lt;you_wonapostrophet_be_able_to_submit_you&gt;&gt;). This method is a quick and easy way to fill in the required metadata fields for submission.
+
+
+[[ch06note04]]
+
+[WARNING]
+====
+The Book Description, a required (and crucially important for capturing customers) metadata field, supports only flat text. In other words, it does not support things like bulleted lists. Keep your descriptions to simple paragraphs and avoid fancy formatting, or it could end up looking like a mess once your book is released in the iBookstore.
+
+
+====
+
+
+You should consider going beyond the minimum requirements, though. Good metadata directly correlates to “findability,” or the ease with which something can be found. Usually, this term is used in the context of the Internet, but in this case, you can think about it in relation to the iBookstore. The richer and more complete your metadata is, the easier it will be for your potential readers to find you. It is in your interest, therefore, to spend the time on your metadata to make it as complete as possible.
+
+Most of the metadata fields are obvious, and you’ll have very little trouble filling them in. However, some of them could use a closer look:
+
+Publication Date:: If your book was previously published in physical form, it may be a good idea to use that date. On the other hand, if you’ve enhanced the original version with new content and interactive widgets, you may want to use the date that you are submitting the book to the iBookstore. Ultimately, the decision is up to you. The question to ask yourself is: what date do I want my reader (and potential customers) to see?
+
+Note that, in addition to a normal date, iTunes Producer will accept values such as “today,” “tomorrow,” “last year,” and so on.
+
+Series Name and Number (not required):: If you’re planning on making this first book part of a series (e.g., _Lord of the Rings_), you can use these fields to indicate the title of that series and the number of this book in that series.
+
+Display Number (not required):: Apple describes this value as “the display number as it should appear to customers on the iBookstore. For example, Book 4 or Volume III.”
+
+Print Length:: If your book has no print equivalent, consider using the page count from a PDF version of your book in iBooks Author.
+
+Pre-order Previews Allowed (not required; Paid Accounts only):: You can submit your book to the iBookstore today and release it for sale at a later date using the Sales Start Date and Pre-Order Date fields on the Rights &amp; Pricing tab. If you elect to have a pre-order period, you can allow readers to download the sample version of your book during that time, which will apply to all territories in which you will ultimately sell your book. Once your book is released, the sample book will also be available, regardless of whether you check this box or not.
+
+You can read more details about each of the metadata fields in Apple’s documentation, available to you in iTunes Connect. The iTunes Producer User Guide is particularly helpful and can be downloaded from the “Deliver Your Content” section. You’ll also find training videos and other resources.
+
+
+[[adding_your_sample_book_and_other_assets]]
+==== Adding Your Sample Book and Other Assets
+
+The last step before you can finally hit the magic Deliver button is to load your sample chapter and potentially other assets. In iTunes Producer, click on Assets, and you’ll be presented with an option to load your sample book, as shown in &lt;&lt;upload_your_sample_book_to_the_upload_pu&gt;&gt;.
+
+[[upload_your_sample_book_to_the_upload_pu]]
+.Upload your sample book to the Upload Publication Preview window.
+image::figs/web/0606.png[]
+
+Simply click on Choose... and then select your sample chapter. You also can also use the Assets section of iTunes Producer to modify the Cover Art and add screenshots. Producer automatically grabs the cover from your _.ibooks_ file, so no action is required.
+
+Screenshots are optional, but strongly consider including them, particularly if you’ve got highly designed pages or visually appealing widgets. &lt;&lt;screenshots_in_the_ibookstore_from_life&gt;&gt; shows how screenshots appear to readers browsing in the iBookstore.
+
+[[screenshots_in_the_ibookstore_from_life]]
+.Screenshots in the iBookstore from _Life on Earth_ show off both design and functionality.
+image::figs/web/0607.png[]
+
+The book description and screenshots are your first and best chance to connect with potential new readers and customers. You can include up to five screenshots.
+
+Once you have loaded your sample chapter and screenshots, click on the Delivery tab, and Producer will check to make sure that you’ve met all the requirements for submitting to the iBookstore. Clean up any remaining errors or problems. Once Producer is satisfied, the Deliver button will no longer be grayed out. Click it, and you’re done!
+
+Once your book and associated files and metadata have been sent to Apple, a review period begins. Apple normally reviews a book within a couple of days. If there is a problem, they will alert you via email or a notification via iTunes Connect.
+

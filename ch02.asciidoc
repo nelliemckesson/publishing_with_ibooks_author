@@ -1,0 +1,138 @@
+
+[[book_building_basics]]
+== Book Building Basics
+
+In the chapters that follow, you’ll learn how to build the components and pages of your book. You’ll see how to employ the tools and widgets introduced in &lt;&lt;tour&gt;&gt; to create new sections and chapters, style text, lay out pages, and insert and manipulate images. Then, you’ll move on to the fun interactive stuff you can do with iBooks Author built-in widgets.
+
+Before you get into the nitty-gritty of creating ebooks, however, you need to reconsider your notion of the “page.” In this chapter, you’ll see how, with the iBooks Author publishing platform, Apple has re-envisioned traditional page layouts and book design to come up with something new altogether, which they are calling Multi-Touch Books.
+
+
+[[what_is_a_pagequestion_mark]]
+=== What Is a Page?
+
+Trying to learn about differences between ebook formats can be a dizzying experience. Each device accepts some certain subset of the available formats. The Kindle accepts Mobi and PDF, but not EPUB. iBooks accepts EPUB and PDF, but not Mobi. You can probably think of more examples. So what are the differences among these types, and why should anyone care?
+
+
+[[page_layoutcomma_fixed]]
+==== Page Layout, Fixed
+
+Most fundamentally, there are two kinds of ebook formats—those that use a fixed page layout and those that use a fluid page layout. link:$$http://en.wikipedia.org/wiki/Pdf$$[PDF] is the classic example of a fixed page layout. No matter which device you read a PDF on, the text, images, and all of the other parts of the page will always look the same. The fonts will never change, and the page numbers are eternal. Traditional publishing tools such as InDesign, FrameMaker, and Quark excel at providing content creators with a means to produce fixed page layouts. These tools output PDF, which in turn can be sold as an ebook or printed as a traditional book.
+
+
+[[page_layoutcomma_fluid]]
+==== Page Layout, Fluid
+
+Ebook formats that are fluid, on the other hand, reflow to fit the container in which the text is read. link:$$http://en.wikipedia.org/wiki/EPUB$$[EPUB] and link:$$http://en.wikipedia.org/wiki/Mobipocket$$[Mobipocket] are examples of fluid formats. You may have experienced a fluid format if you’ve ever read the same ebook on your phone, tablet, and computer monitor. In each case, the reading system reflows the text to fill the screen on which you are reading. Additionally, each reading system may have its own set of fonts and its own page numbering system. As the ebook market has grown, publishers have struggled to find new tools to create fluid layouts while continuing to produce fixed layout formats.
+
+
+[[page_layoutcomma_something_in_between]]
+==== Page Layout, Something in Between
+
+The iBooks Author format (_.ibooks_) produces pages that are somewhere in the middle between fixed and fluid. This distinction makes it the first format of its kind, and by extension, the iBooks Author application is the first tool of its kind. Never before have ebook makers had a tool that allows them to simultaneously create pages that are both fixed and fluid (but also fluid in a new way, as you’ll see in the next section). A clear understanding of how pages flow (or don’t flow) in ebooks created in iBooks Author is crucial before you start building your own pages.
+
+
+[[pages_based_on_ipad_orientation]]
+=== Pages Based on iPad Orientation
+
+iBooks Author allows you to create pages that adapt to how the reader is holding the iPad. The reader can hold an iPad in only two ways: horizontally (landscape) and vertically (portrait). The following is an explanation of how content works in each orientation.
+
+
+[[landscape_versus_portrait_orientation]]
+==== Landscape Versus Portrait Orientation
+
+If the reader is holding the iPad sideways (i.e., landscape), the page layout is akin to the kind of fixed page layout that we see in traditional books. &lt;&lt;landscape_page_layout_from_life_on_earth&gt;&gt; shows an example of a landscape page.
+
+[[landscape_page_layout_from_life_on_earth]]
+.A landscape page layout from _Life on Earth: An Introduction_ is a familiar fixed page layout.
+image::figs/web/0201.png[]
+
+A reader navigates these landscape pages by swiping horizontally. Swiping to the left brings up the next page. Note the page number in &lt;&lt;landscape_page_layout_from_life_on_earth&gt;&gt;. Also, note the captions beneath the Figure and Gallery. Now look at portrait orientation and observe how those things change.
+
+If that same reader turns the iPad vertically, the ebook switches to a portrait orientation and both the presentation and method of navigation change. &lt;&lt;same_part_of_the_book_shown_in_figure_2&gt;&gt; shows the same part of the book in portrait orientation.
+
+[[same_part_of_the_book_shown_in_figure_2]]
+.The same part of the book shown in &lt;&lt;landscape_page_layout_from_life_on_earth&gt;&gt;, but it’s now in portrait orientation.
+image::figs/web/0202.png[]
+
+In portrait orientation, the presentation of the content is dramatically different from the landscape presentation. Here are some differences worth considering:
+
+Fixed versus fluid layout:: Instead of a fixed page layout, the reader is presented with a long, scrolling text that contains the entirety of the chapter, which is one method to present content in a fluid way. The reader navigates the text by swiping vertically, as opposed to horizontally.
+
+Page numbering:: As you can see, this portrait view has its own page-numbering scheme (page 14 versus page 16).
+
+Content differences:: Even more interesting, though, is how the presentation of the _content_ changes. Note, for example, how in portrait orientation (&lt;&lt;same_part_of_the_book_shown_in_figure_2&gt;&gt;) you are unable to see the longer captions for the Gallery and Figure, as you can in landscape orientation (&lt;&lt;landscape_page_layout_from_life_on_earth&gt;&gt;). The captions are still available to the reader in portrait mode: the reader just needs to click on an image to bring up a full-screen version, which includes the full caption that we see in the landscape version of the page.
+
+Image orientation:: Another thing to keep in mind is that full-screen versions of these images _also_ have their own landscape and portrait presentations, although the difference between these two presentations is much less dramatic than we saw with the page layouts (&lt;&lt;full-screen_view_of_an_image_in_portrait&gt;&gt;).
+
+[[full-screen_view_of_an_image_in_portrait]]
+.A full-screen view of an image in portrait and landscape mode shows that they have the same content but a different orientation.
+image::figs/web/0203.png[]
+
+This full-screen pop-up view is available to readers in both landscape and portrait orientations and extends beyond just images. Tables, charts, videos, and widgets all have full-screen pop-up views. Widgets are of particular interest in the larger context of how orientation affects interactivity, as we’ll see in the next section.
+
+
+[[orientation_and_interactivity]]
+==== Orientation and Interactivity
+
+Before you can begin building your book in iBooks Author, you need to have an understanding of how page orientation affects how a page behaves. That behavior, in turn, affects how a reader interacts with the page in any given page orientation. One of the key ways that a reader can interact with content on the page is via a widget.
+
+
+[[widgets]]
+===== Widgets
+
+The level of interactivity available to the reader via widgets changes based on page orientation. You’ll learn more about how to add and edit widgets in your book later in &lt;&lt;objects&gt;&gt;. For now, note that widgets can be interacted with directly on the page in landscape view; in portrait view, the reader must use the full-screen pop-up version of the widget. For example, the image on the left in &lt;&lt;landscape_page_layout_from_life_on_earth&gt;&gt; is actually a Gallery widget, which allows you to insert multiple images and captions in the same image box. (Think of it as a slideshow on the page—see &lt;&lt;gallery&gt;&gt; in &lt;&lt;objects&gt;&gt; for more details.) A reader can swipe horizontally on the widget to navigate to the different images. &lt;&lt;gallery_widget_enables_interactivity_dir&gt;&gt; shows the same page again, but with the widget displaying a different image in the gallery.
+
+[[gallery_widget_enables_interactivity_dir]]
+.The Gallery widget enables interactivity directly on the page, but only in landscape view.
+image::figs/web/0204.png[]
+
+The behavior demonstrated in &lt;&lt;gallery_widget_enables_interactivity_dir&gt;&gt; is typical of widgets in general. If you were to insert a video, for example, the reader would be able to play that video directly on that page in landscape view, but in portrait view, the reader would have to view the movie in a full-screen pop-up window.
+
+
+[[table_of_contents-id00001]]
+===== Table of Contents
+
+You’ve seen how orientation affects interactivity in basic page layouts and widgets. You should also consider how orientation and interactivity work in other parts of the book. For example, iBooks Author allows you to create a table of contents that looks and acts strikingly different in the two orientations. &lt;&lt;portrait_view_of_the_table_of_contents_i&gt;&gt; shows the table of contents from _Physics: Principles and Problems_ (McGraw-Hill) in portrait orientation.
+
+[[portrait_view_of_the_table_of_contents_i]]
+.The portrait view of the table of contents is functional but unremarkable.
+image::figs/web/0205.png[]
+
+This portrait view of the table of contents allows the user to click on arrows to navigate to different sections of the book, which is the kind of thing we see in standard ebook reading systems. The landscape view is something different altogether and allows you, the content creator, to assemble a table of contents that represents the next generation of book navigation, as shown in &lt;&lt;there_are_multiple_ways_to_navigate_a_bo&gt;&gt;. (See &lt;&lt;table_of_contents&gt;&gt; in &lt;&lt;tour&gt;&gt; for more about customizing your TOC.)
+
+[[there_are_multiple_ways_to_navigate_a_bo]]
+.There are multiple ways to navigate a book in the twenty-first century.
+image::figs/web/0206.png[]
+
+The landscape version of the table of contents shown in &lt;&lt;there_are_multiple_ways_to_navigate_a_bo&gt;&gt; gives the reader no fewer than four different ways of navigating the book:
+
+
+* A full-page horizontal swipe, allowing the reader to scroll to the next chapter, each of which has a full-page navigational spread in the table of contents, similar to this one
+
+
+* A vertical swipe in the smaller window below the chapter title, allowing the reader to navigate to a section within the chapter
+
+
+* A horizontal swipe of the preview pages, allowing the reader to jump to a particular page
+
+
+* A clickable row of dots along the bottom panel, allowing the reader to navigate to different parts of the book
+
+That such complex and rich navigational possibilities are available to the reader _simply by turning the iPad to the side_ is remarkable because it gives you, as the book maker, an entirely new way to help your reader discover and enjoy your content.
+
+
+[[assembling_the_pages]]
+=== Assembling the Pages
+
+Now that you’ve got an idea about how “pages” work in iBooks Author, you can start to think about how you can use it to assemble your own pages. If you’ve had experience with traditional publishing tools, the landscape orientation page layout described in the previous sections probably seems familiar to you. Just as you would with a traditional page layout program, you use the iBooks Author tool to lay out the various components of any given page, and that page remains fixed. Sure, compared with something like InDesign, the Author interface looks a little bit different and the interactive widgets throw in something else to consider, but the basic concept is the same. You’ve got a button for adding text boxes, another for moving images around, another to change fonts, and so on. In this way, you might think of iBooks Author as InDesign for the iPad.
+
+But if you’ve read this far, you know that things are more complicated than that because the portrait view has its own set of considerations. iBooks Author helps you manage the design and layout of the two orientations with the Orientation button, which is pretty hard to miss (&lt;&lt;itapostrophes_not_a_coincidence_that_the&gt;&gt;).
+
+[[itapostrophes_not_a_coincidence_that_the]]
+.It’s not a coincidence that the Orientation button has a prominent place in the iBooks Author interface.
+image::figs/web/0207.png[]
+
+When you first use that Orientation button, you’ll notice that, once you’ve laid out a page in landscape view, you’ll get the portrait layout “for free.” In other words, iBooks Author will flow your text into a scrollable container and set off everything else (images, widgets, and so on) as small, clickable thumbnails in the left margin. In fact, just as the page layouts in landscape view are incredibly flexible, the portrait view is very rigid. When you are building your pages, you’ll find that there is much less for you to do and consider for portrait view beyond potentially resizing and moving (but only vertically) the thumbnails.
+
+Regardless of the way portrait view tends to take care of itself, as you make your way through the sections that follow, you’ll want to make the Orientation button your best friend. As you build your pages and present your content, keep in mind that any given reader may be reading the content in either portrait or landscape or both. For every reader who takes the time to enjoy your meticulously laid out fixed landscape page, there is another reader who just wants to scroll through the content in portrait and read it as quickly as possible. When you build books in iBooks Author, be sure to keep in mind both types of reader.
+

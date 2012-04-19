@@ -1,0 +1,444 @@
+
+[[text]]
+== Text
+
+The first thing you’re probably going to want to add to your book is some text. Author is a powerful text editor (a lot like Apple’s Pages) with the full gamut of text formatting tools. You can click the placeholder text and type away, or you can import your content from a Word or Pages file.
+
+
+[[placeholder_text]]
+=== Placeholder Text
+
+Whenever you add new pages, Author prefills them with placeholder text, to give you a sense of how the pages will look when you’re done. Click once on any stretch of placeholder text, and Author selects the whole thing for you to overwrite with your own masterpiece.
+
+If you start typing a sentence and realize you’re not actually ready to write that part yet, you can retag it as placeholder text for easy editing later on. Select the string of text you want to turn into a placeholder, and go to Format → Advanced→Define as Placeholder Text. Author won’t let you tag fields (see &lt;&lt;text_variables&gt;&gt;) or linked text as placeholders, however, including any sentence or passage that has a glossary term or index link in it.
+
+
+[[importing_a_text_file]]
+=== Importing a Text File
+
+Choose Insert → Chapter from Pages or Word document... to insert a document you’ve already written into your Author project. When you choose the file you want to import, Author asks you what kind of layout you want it to have; choose one of the options, and Author inserts a new section using the layout you chose, filled with your document. Author will use the document filename as the title of the chapter or section, which you’ll likely need to change. You can do that in either the Book menu (by clicking the chapter title next to the page thumbnail or outline item, pausing, and then clicking again) or in the text itself (&lt;&lt;there_are_two_places_you_can_change_a_ch&gt;&gt;).
+
+[[there_are_two_places_you_can_change_a_ch]]
+.There are two places you can change a chapter title: in the Book menu or on the chapter title page.
+image::figs/web/0301.png[]
+
+
+[[ch03note01]]
+
+[WARNING]
+====
+Author is sometimes a bit finicky about letting you update the chapter title from the first page of the chapter. You may find that when you select all of the placeholder text in the field (see &lt;&lt;text_variables&gt;&gt;) and type over it the field box gets deleted, which means it’s no longer linked to the page thumbnail and the TOC. If you noticed right away, just undo and either type your new title in the middle of the placeholder text and then delete the bits that you don’t want letter by letter, or change the title via the page thumbnail label. If it’s too late for that, just go to another chapter and copy the entire Chapter Title field (by triple-clicking and hitting command-C), paste it in the correct place, and then try to edit the Chapter Title text again a bit more carefully.
+
+
+====
+
+
+If you added your file as a new chapter, Author leaves the introductory paragraph filled with placeholder text, for you to add a prelude or subtitle to your chapter. If you already had one written in your text file, just cut and paste it into the right place.
+
+Another option Author gives you when you import text files is to “Preserve document paragraph styles on import.” If you’ve been using Word’s or Pages’ paragraph styles, turning this checkbox on copies those style names into your book file, along with their definitions. For example, if you formatted your body paragraphs in a 16-point, purple, Comic Sans paragraph style called “Normal,” Author will import that paragraph style and do its best to recreate that same styling in your book. If for some reason it can’t duplicate part of the style, it’ll open a warning dialog box when the file imports, telling you what part it failed to recreate (usually fonts).
+
+[[ch03note02]]
+[NOTE]
+====
+If you aren’t sure what paragraph styles are, see &lt;&lt;paragraph_styles&gt;&gt;.
+
+
+====
+
+
+Embedded image files in your text file are no problem—Author imports them along with everything else, and lets you edit them the same as any other image (see &lt;&lt;images&gt;&gt;).
+
+
+[[formatting_text]]
+=== Formatting Text
+
+Author comes fully equipped with the standard text formatting tools. In the Format Bar (&lt;&lt;text_format_bar_has_all_the_tools_youapo&gt;&gt;) you’ve got the basics:
+
+Styles Drawer icon:: This icon toggles the Styles Drawer open and closed (more about the Style Drawer in &lt;&lt;styles_and_the_styles_drawer&gt;&gt;).
+
+Paragraph icon:: Lists all the paragraph styles in your document for you to choose from (see &lt;&lt;paragraph_styles&gt;&gt;, below).
+
+“a” icon:: Lists all the character styles in your document (see &lt;&lt;character_styles&gt;&gt;, below).
+
+[[ch03note03]]
+[TIP]
+====
+You don’t need to select an entire word to apply the next few options. Just click within any word, and when you choose a new value, the whole word will change. However, you want to change more than a word, or if you want to change an entire paragraph, you’ll need to select it.
+
+
+====
+
+
+[[text_format_bar_has_all_the_tools_youapo]]
+.The text Format Bar has all the tools you’d expect for formatting text.
+image::figs/web/0302.png[]
+
+
+* Font drop-down. Select some text and choose a font. You get a preview of each font in the drop-down menu, so you can make an informed choice. Don’t go too crazy with the fonts though; it’s generally good practice to limit yourself to one serif font family and one sans serif within a project (but you can use as many faces within the family as you like).
+
+
+* Typeface drop-down. Here you choose the specific font face you want to use—regular, italic, bold, etc.
+
+[[pro_tips_font_familyquestion_mark_facequ]]
+.Font Family? Face? Serif?
+****
+Font Family? Face? Serif? Fonts are described in a few ways. First, all fonts are divided into _families_. A font family is a set of related fonts that share lots of the same characteristics, but differ in terms of style, weight, and so on. Each font within a font family is called a font _face_. Helvetica Italic, Helvetica Bold, and Helvetica Condensed are all different font faces within the Helvetica family.
+
+Fonts are also classified as _serif_ or _sans serif_. A serif is that little foot that sticks off some of the letters in a font family. Serif fonts are fonts that have that little foot; sans serifs do not (_sans_ is French for “without,” i.e., “without serif”). Times, for example, is a serif font, and Helvetica is a sans serif.
+
+
+****
+
+
+Font size:: Choose a size for your text selection. In printed books, anything from 9 to 11 points is usually good for body text; however, that would be far too small for a fixed layout ebook like this. Author suggests 16 points as the standard body text size. Play around with a few different sizes and preview them on your iPad to find one that works for you.
+
+Text color:: Choose a color for your text. Darker colors are usually best on a light background. If you’ve got a very dark background, you can probably get away with white or light-colored text, but be careful not to strain your readers’ eyes too much.
+
+Text background color:: You can give your selected text a background color if you like. This is an easy way to highlight key terms or phrases if the glossary bolding isn’t enough, but again, use this judiciously.
+
+Bold, Italic, and Underline:: The usual buttons to quickly change the typeface.
+
+Paragraph alignment: Left, Center, Right, Justify:: For body text, it’s generally best to stick with left-aligned or justified text. Right-aligned text is okay for short passages, like figure captions, titles, or callouts, but in most Latin-based languages (like English) it’s hard to read long stretches of right-aligned text. Centered text is good for quotes and other text you want to draw attention to, but again, it isn’t usually appropriate for long stretches.
+
+Line spacing:: This option adjusts the space between the lines in a paragraph. You don’t need to select an entire paragraph to change the line spacing. Just click anywhere within the paragraph and choose a new value from the line spacing drop-down, and your paragraph will expand or shrink accordingly.
+
+Columns:: Determines how many columns to split the paragraph(s) into. You can choose from one to four columns.
+
+List style:: Here you can turn your paragraph into a numbered or bulleted list. You have a few different list styles to choose from, or you can make up your own by choosing Show More. From the Show More menu, in addition to numbered and bulleted lists, you can create lists that are marked by images, and you can define how far to indent the list, how far up or down to align the bullet character, and how big it should be. Once you’ve got your list looking the way you want, you can turn it into a paragraph style to use throughout your book: right-click on the styled paragraph and choose “Create Paragraph Style from Selection.”
+
+[[ch03note04]]
+[TIP]
+====
+If you need to insert a glyph, like a star, apple symbol, or ☺, open the Font window by clicking the Fonts button in the Toolbar, click the gear icon in the bottom right corner, and choose Characters... from the flyout menu. All the glyphs in the font you had selected are neatly organized here by type.
+
+
+====
+
+
+
+[[text_inspector]]
+=== Text Inspector
+
+The Text Inspector (&lt;&lt;four_tabs_of_the_text_inspector_put_almo&gt;&gt;) puts all your text formatting tools at your fingerprints. To get to it, open the Inspector from the Toolbar, and go to the fourth-from-left tab (the big T). There are four tabs within the Text Inspector. The one thing you can’t change through the Text Inspector is font family and face—you’ll have to set those in the Format Bar.
+
+[[four_tabs_of_the_text_inspector_put_almo]]
+.The four tabs of the Text Inspector put almost all your text formatting tools in one place.
+image::figs/web/0303.png[]
+
+
+[[text-id00002]]
+==== Text
+
+These are some of the usual paragraph and text formatting options. At the top, you can change the color and alignment of your selected text, and also change the vertical alignment within the text box. To change the color, click the color swatch, and choose wisely. If the swatch was black, the color wheel Author gives you will at first seem to offer you only black as an option; drag the slider on the right up to reveal the full spectrum of colors.
+
+The spacing sliders let you adjust the amount of white space horizontally between the individual letters in a paragraph, and vertically between lines. You can also add space above or below a paragraph, and with Inset Margin you can add padding around the edges of a text box, to push your text away from the border.
+
+
+[[list]]
+==== List
+
+If you want to turn your text into a list, or if it’s already a list and you want to change the way it looks, head to the List tab. Your first choice is Indent Level, which determines how far to indent the list from the left edge of the page. Each successive level is meant for that level of nested list—for example, choosing 3 here would mean a list within a list within a list. Author has some standard indent sizes, but you can adjust them with the next options.
+
+Next you choose what kind of list you want—bulleted or numbered—and how to style the list marker. The option you choose determines what you’ll see next. If you choose Text Bullets, you can choose what icon to use as the list marker, and what color to make it. If you choose Image Bullets, you can choose from a list of standard images for your list marker. If that’s not enough, choose Custom Image to choose an image file from your computer to use. No matter which bullet style you choose, you can change how big the bullet is compared to the text (Size), how far up or down to align it next to the paragraph (Align), and whether to scale the bullet image as you resize your text. If you turn this checkbox off, the bullet will stay exactly the same size no matter how big or small your text is; turning it on will maintain the same proportion between bullet and text that you see now.
+
+If you go for a numbered list, you only get a few choices. You can choose either plain or tiered numbers (&lt;&lt;regular_numbers_left_parenthesisleftrigh&gt;&gt;). Tiered numbers reference how far deep the list item is nested; they’re great for referring to sections. For either type of numbering, you can still change the number style: regular, uppercase Roman numerals, lowercase Roman numerals, uppercase letters, and lowercase letters. You can also choose how to separate the number from the text (period, right parenthesis, or double parentheses).
+
+[[regular_numbers_left_parenthesisleftrigh]]
+.Regular numbers (left) versus tiered numbers (right).
+image::figs/web/0304.png[]
+
+Once you’ve picked your number style, choose whether you want the number to continue from wherever the last numbered list left off or to start the numbering over at any number you choose. The most common value here is probably going to be “1.”
+
+For both numbered and bulleted lists, you can adjust the amount of indent. Use the Bullet/Number Indent box to indent the whole paragraph more or less; use Text Indent to add more space between the list marker and the text.
+
+
+[[tabs]]
+==== Tabs
+
+The first section here is actually your paragraph indent settings. You can indent just the first line to get a classic look, and also indent paragraphs on both the left and right sides.
+
+Next you get into the actual tab settings. _Tab stops_ are how far you jump when you hit the tab key. The default is 36 points, but you can make this more or less. There are four standard kinds of tab stops: left, center, right, and decimal (&lt;&lt;hereapostrophes_a_visual_comparison_of_t&gt;&gt;). Here’s how each one works:
+
+Left:: These are the most common. Press the tab key to jump ahead, and then any text you add grows to the right, just like normal.
+
+Center:: Text grows evenly from both sides of the tab stop.
+
+Right:: Text grows to the left of the tab stop, as if the paragraph were right-aligned.
+
+Decimal:: Text aligns on a particular character. Usually this is used in accounting or with lists of numbers, to keep the numbers aligned on the decimal point. You can choose a different character to align to in the “Decimal Tab Character” box.
+
+[[hereapostrophes_a_visual_comparison_of_t]]
+.Here’s a visual comparison of the different kinds of tabs: left, right, center, and decimal. All four have the same tab stop position, but have different alignments.
+image::figs/web/0305.png[]
+
+You can add your own custom tab stops for each paragraph. Press the + button at the bottom of the Tab Stops section, and a new tab stop gets added to your list. Click the number in the list to change the location of the tab stop, and click the radio button for the type of tab you want.
+
+Turn on your rulers (View → Show Rulers) to get a more visual way to set tab stops (&lt;&lt;quickly_add_tabs_by_clicking_the_rulerdo&gt;&gt;). Click in the paragraph you want to add a tab stop for, and then just click on the ruler wherever you want to add the tab stop. Author chooses a left tab by default; right-click or control-click on the new tab to change to a different style. To move a tab, grab it on the ruler and drag it wherever you want. To delete a tab, drag it off the ruler and it disappears in a puff of smoke.
+
+[[quickly_add_tabs_by_clicking_the_rulerdo]]
+.Quickly add tabs by clicking the ruler. Control click to change the tab alignment.
+image::figs/web/0306.png[]
+
+[[ch03note05]]
+[TIP]
+====
+You can also adjust your paragraph indents via the ruler; drag the two down-pointing arrows to add more space on either side.
+
+
+====
+
+
+You can add a leader to any of your tabs, to fill the space the tab jumps over with a character (usually a row of dots). You see this a lot in tables of contents or playbills. Select the tab you want to add a leader to, and choose the leader style from the drop-down.
+
+Setting your own tab stops is a real pro move, but most people will probably find that the defaults are fine.
+
+
+[[more]]
+==== More
+
+Here’s where you can get really fancy. Add a custom border to a particular paragraph, a background to just a few selected characters or to the paragraph as a whole, and a lot more (see &lt;&lt;this_ugly_little_paragraph_uses_almost_a&gt;&gt;). Here are all your options:
+
+Border &amp; Rules:: Add a border to any or all sides of just one paragraph within a text box. Once you choose a line style from the drop-down list, the other options become active. Set the line color and weight, and pick which edge (top, bottom, both, or all) you want the border to run along. Adjust the offset to push the border further from or closer to the paragraph text (you can even go into negative numbers, which will make the border overlap the text).
+
+Background Fills:: Select a few characters or a word and turn on Character and choose a swatch to add a background color to just that word (for example, to create a highlighter effect). To add a background color to an entire paragraph, turn on the Paragraph checkbox.
+
+Following Paragraph Style:: You can dictate what kind of paragraph to insert after your current paragraph. Choose any of your existing paragraph styles from the drop-down list. If the style you want doesn’t exist, you’ll need to create it first (see &lt;&lt;styles_and_the_styles_drawer&gt;&gt;).
+
+Pagination &amp; Break:: These checkboxes apply to the whole paragraph and tell it how to act when it breaks across multiple pages. “Keep lines together” will keep the whole paragraph together on one page. If any of the lines don’t fit on a page, the whole paragraph will jump to the next page. “Keep with following paragraph” does just what it says—keeps two paragraphs together on the same page; this is great for definition lists or to keep section headers from appearing alone at the end of a page. “Paragraph starts on a new page” will force your paragraph to start on a new page, pushing all the text that follows along with it. This is often used for section headers. “Prevent widow &amp; orphan lines” is on by default, and you probably want to keep it on. It prevents individual words or lines of text from getting stranded at the top or bottom of a page. You can choose any, all, or none of these options.
+
+Language:: Tells Author what language the selection or paragraph is written in. This isn’t a translator—it affects how Author checks your spelling. You can select just a few words and change the language, or you can change it for the whole paragraph by making sure nothing is selected and choosing the language from the drop-down list.
+
+Remove hyphens from paragraph:: Keeps words from breaking across lines. If this is turned on, words can split across lines and Author will add a hyphen. Turned off, if a word can’t fit in its entirety at the end of a line, the whole thing will drop to the next line.
+
+Remove ligatures:: Ligatures are letters that run together to form one character. Some of the usual suspects are ff, fl, and fi. Turning on this checkbox keeps each letter separate, instead of combining them into one.
+
+Baseline Shift:: Adjusts text up or down; this is best used for individual words or phrases. Select some text, and use the up and down arrows to move it vertically, creating a superscript or subscript look. If you want to shift whole paragraphs, you should probably use the options on the Text tab of the Text Inspector.
+
+[[this_ugly_little_paragraph_uses_almost_a]]
+.This ugly little paragraph uses almost all the options in the More tab: top and bottom border, paragraph background (notice that the background also fills any space above or below that you set on the Text tab, but the borders don’t), character background (the word “Preferences”), “Keep lines together,” and the word “picas” shifted above the baseline.
+image::figs/web/0307.png[]
+
+
+[[styles_and_the_styles_drawer]]
+=== Styles and the Styles Drawer
+
+Paragraph and character styles have been around for a while, and they are built into almost every robust text editor or layout program these days. They allow you to create a consistent look for paragraphs or text spans of the same type to use throughout your document. All of Author’s templates come with a suite of paragraph and character styles to complement the template design, but you’re free to edit them or even to create your own styles as needed.
+
+Styles are so important that Author gives you all kinds of ways to get to them. You can choose them as needed from the drop-down lists in the Format Bar, but to have them at your fingertips at all times, your best bet is to open the Styles Drawer (&lt;&lt;styles_drawer_for_this_paragraphdot_you&gt;&gt;). To do so, click the blue Styles Drawer button at the far left of the Format Bar, go to View → Show Styles Drawer, or click the View button in the Toolbar and choose Show Styles Drawer. This opens an extra panel on either the left or right of your editing window (depending on which side has more open space on your monitor), listing all the styles in your template, plus any extras that you imported with text files (see &lt;&lt;importing_a_text_file&gt;&gt;) or added yourself.
+
+Select some text and open up the Styles Drawer—you should see three style names highlighted in blue. These are the different styles applied to the text you selected, one for the paragraph style, one for the character style, and one for the list style. (If there isn’t a style applied for any of these three categories, the word None will be highlighted.)
+
+[[styles_drawer_for_this_paragraphdot_you]]
+.The Styles Drawer for this paragraph. You can see this paragraph uses the Body style (but it has some overrides, as evidenced by the red arrow), no character style, and Bullet list style.
+image::figs/web/0308.png[]
+
+
+[[paragraph_styles]]
+==== Paragraph Styles
+
+Paragraph styles affect the formatting of an entire paragraph—things like font family and style, line height, alignment, number of columns, and so on (but you can include as much or as little of that stuff in the style definition as you want). To apply a paragraph style, click inside any paragraph of text, and then click on the paragraph style name in the Styles Drawer or choose it from the drop-down list in the Format Bar.
+
+To edit an existing style definition, adjust the formatting as you like via the Text Inspector or the Format Bar, and then in the Styles Drawer click the little arrow next to the style name, and choose “Redefine Style from Selection” (&lt;&lt;context_menu_that_pops_up_when_you_click&gt;&gt;). Author will update all the other paragraphs in your book that use that style to match your new formatting.
+
+If you apply a style to a selection, and then manually change the formatting of that selection outside of the style definition, the little arrow next to the style name in the Styles Drawer turns red. This is your clue that the text has style overrides. If you want to get rid of the overrides, click the arrow and choose “Revert to Defined Style” or just click the style name again to reapply it.
+
+[[context_menu_that_pops_up_when_you_click]]
+.The context menu that pops up when you click the arrow next to a style name gives you a few ways to apply or reapply the style to your selection. Choose Redefine Style from Selection if you want the style to incorporate any custom formatting you added to the paragraph.
+image::figs/web/0309.png[]
+
+To see every place where a particular paragraph (or character) style is used, click the gear icon next to the page navigation buttons at the bottom of the window (&lt;&lt;navigation&gt;&gt;), choose the style name from the list, and then click the buttons to navigate between each usage of that style.
+
+You can hide all the other kinds of styles in the Styles Drawer, but you can’t hide paragraph styles.
+
+
+[[character_styles]]
+==== Character Styles
+
+Character styles work a lot like paragraph styles, except they’re only applied to words or phrases of text. You also have fewer formatting options—none of the formatting that applies to whole paragraphs will work here (for example, line height, paragraph alignment, and so on). Character styles are best for changing the style or weight of text, like making it bold or adding an underline.
+
+[[ch03note06]]
+[NOTE]
+====
+Wondering why you’d want to use character styles instead of the bold, italic, and underline buttons? With character styles you can change the way italic text looks throughout your entire book in one stroke; if you wanted to accomplish the same thing manually, you’ve have to hunt for every italic word and reapply the formatting.
+
+
+====
+
+
+To apply a character style, select the text you want to style, and then click the character style name in the Styles Drawer or choose it from the drop-down list in the Format Bar. To hide character styles, click the little “a” icon in the lower-right corner of the Styles Drawer.
+
+
+[[list_styles]]
+==== List Styles
+
+List styles work the same as paragraph and character styles, except they determine the way your lists will look—bullet or number style, indenting, and the like. To hide list styles, click the little list icon in the lower-right corner of the Styles Drawer.
+
+
+[[hot_keys]]
+==== Hot Keys
+
+You can assign Hot Keys to the styles you use most, so that you can apply a style throughout your book with just one keystroke (instead of having to select it from the Styles Drawer every time). To do so, in the Styles Drawer, click the little down arrow next to the style name, click Hot Key, and then choose one of the keys to assign to that style. You have eight options—F1 through F8—which means you can only assign Hot Keys to eight styles. If you’ve already assigned a specific Hot Key to another style, that option will appear grayed out in the Hot Key drop-down list. Once you’ve assigned a Hot Key to a specific style, all you need to do is select some text and hit that Hot Key to apply the style to your text.
+
+[[ch03note07]]
+[TIP]
+====
+If your “F” keys share space with other commands, like turning the brightness up or down (as they do on most Mac keyboards), you’ll need to hold down the function (fn) key while you press the “F” key you want.
+
+
+====
+
+
+To remove a Hot Key from a style, click the arrow next to the style name and choose Hot Key → None.
+
+
+[[links]]
+=== Links
+
+Cross-references are an integral part of most reference books; they are links or pointers to related sections of the text that give readers more guidance (this book, for example, is full of them). Unfortunately, inserting cross-references isn’t quite one-click in Author, but it is possible. First you need to mark the section that you want to reference, by inserting a bookmark (&lt;&lt;first_step_in_creating_a_cross-reference&gt;&gt;). Click at the beginning of the section or passage, and choose Insert → Bookmark. Author opens the Link dialog box and creates your new bookmark, called “Bookmark.” Click the word “Bookmark” and change the name to whatever you like, but choose something unique so you don’t get confused later on.
+
+[[first_step_in_creating_a_cross-reference]]
+.The first step in creating a cross-reference is to add a bookmark. This is a bookmark for the Tip paragraph on this page. You can also add bookmarks via the Link Inspector, by clicking in the text you want to bookmark and then clicking the + button.
+image::figs/web/0310.png[]
+
+Next, select the text that you want to link to that section, then choose Insert → Hyperlink→Bookmark (&lt;&lt;step_two_in_creating_a_cross-reference_i&gt;&gt;). Author opens the Link dialog again; choose your bookmark name from the drop-down, and you’re done.
+
+[[step_two_in_creating_a_cross-reference_i]]
+.Step two in creating a cross-reference is adding a hyperlink that points to the bookmark you created in &lt;&lt;first_step_in_creating_a_cross-reference&gt;&gt;. The text you selected gets the Hyperlink character style applied to it, but you can change that. It also gets a blue border, which tells you that the text is a field (see &lt;&lt;text_variables&gt;&gt;).
+image::figs/web/0311.png[]
+
+To remove a cross-reference, click to select the hyperlinked word or phrase, and then open the Link dialog (if it’s not still open, just click the Inspector button in the Toolbar to get back to it) and uncheck the “Enable as a hyperlink” box. You may also need to remove the extra character style that Author automatically adds to links, but that’s easy: select the word or phrase, and then in the Character Styles list, choose “None.”
+
+Author does make it easier to add links to labeled objects, like Galleries (see &lt;&lt;gallery&gt;&gt;), Media boxes (see &lt;&lt;media&gt;&gt;), and Figures (see &lt;&lt;figures&gt;&gt;). Select the text that you want to turn into a link, and choose Insert → Hyperlink→Figure Reference. The Link Inspector opens, giving you a list of all the labeled objects in your book to choose from. Click the one you want to link to, and your clickable link is all set.
+
+
+[[text_boxes]]
+=== Text Boxes
+
+Author fills up all the pages you insert with an array of images and text, but you can replace it all with whatever you want. If you want to add text where there used to be an image (or over some blank white space), you’ll need to insert a text box first. All the text in your book is contained within text boxes that you can drag around and resize however you want. To add a new one, click Text Box in the Toolbar; Author slaps a new text box right in the middle of your page, filled with the helpful guide “Type to enter text.” Drag this box to the correct location, and then click inside it and start adding your text.
+
+You can adjust the look of the text box by adding a stroke, drop shadow, and other object options. Skip ahead to &lt;&lt;objects&gt;&gt; for the details, and check out &lt;&lt;shapes&gt;&gt; to learn more about fills and backgrounds.
+
+
+[[column_and_page_breaks]]
+==== Column and Page Breaks
+
+Use column breaks and page breaks to control how much text to keep in a text box or on your page (&lt;&lt;get_more_control_over_your_text_flow_wit&gt;&gt;). Click in the text where you want it to break, and go to Insert → Column Break or Page Break. You can even add a column break at the beginning of a multicolumn text box to skip the first column entirely. To delete a column or page break, click in the text immediately following the break, and hit the Delete key.
+
+[[get_more_control_over_your_text_flow_wit]]
+.Get more control over your text flow with column and page breaks. Author adds a blue line and marker showing you where you’ve inserted the break. (Go to View → Show Invisibles if you don’t see anything special.)
+image::figs/web/0312.png[]
+
+
+[[sidebars]]
+==== Sidebars
+
+Sidebars are passages of text that are set apart from the main text flow, usually in a special box. Apple went ahead and designed sidebar boxes to match each of the canned templates, but you can create your own, too.
+
+Author doesn’t give you a toolbox to pull design elements like sidebars from, but it does add them to certain pages in the template. To insert a new Author-designed sidebar, insert a new page that includes the sidebar, or copy a sidebar from another location in your book and paste it in the correct place. You can also edit the formatting of the canned sidebars, if Author got everything except for a few minor details right.
+
+To create your own sidebar (&lt;&lt;hereapostrophes_an_example_of_a_custom_s&gt;&gt;), just add a new text box and give it a custom background, stroke, and text inset, and decide if you want it inline or floating (see &lt;&lt;anchors&gt;&gt;). Then you can use Copy Graphic Style (see &lt;&lt;copy_graphic_style&gt;&gt;) to reuse this design throughout your book.
+
+However, remember that if your sidebar boxes aren’t anchored inline, or if you don’t create a custom label for them in the Widget Inspector, then they’ll disappear when readers switch to portrait orientation. This means that if you absolutely must have free-floating sidebars that appear in both portrait and landscape orientations, your best bet is to turn them into widgets by adding a label. You have complete control over widget formatting: you can add custom borders and backgrounds, just like with plain text boxes, and style the labels and captions in any way you please. See &lt;&lt;anchors&gt;&gt; for more on inline versus floating objects, and see &lt;&lt;media&gt;&gt; for instructions on adding custom widget labels.
+
+[[hereapostrophes_an_example_of_a_custom_s]]
+.Here’s an example of a custom sidebar. This used to be a static text box, but it’s been turned into a widget by turning on the “Title” checkbox in the Widget Inspector, and giving it a Label of “None.” Each paragraph uses a custom paragraph style, and the whole text box has a dark red fill and a thin black border. The red fill will get stripped out in portrait orientation, leaving just white text on the standard white background, which is probably not a good idea.
+image::figs/web/0313.png[]
+
+
+[[tables]]
+=== Tables
+
+To add a table to your book, click the Table button in the toolbar, and Author drops a new, blank table into the middle of your page. By default, your table is set to float (see &lt;&lt;anchors&gt;&gt;), so you can drag it wherever you want on the page, and that’s where it’ll stay. If you want your table nested in the flow of the text, click the Inline button in the Format Bar, and your table will pop over to wherever you last had your text cursor.
+
+To add data to your table, click in a cell and type away. If your text is too long to fit in the cell, it will wrap onto a new line and the cell will resize vertically. To resize the cell horizontally so that more text can fit on one line, you have to resize the whole column (unless you want to merge two cells; see below). Click the edge of the column that you want to make bigger—your cursor will turn into a double-headed arrow that you can drag to resize the column.
+
+
+[[ch03note08]]
+
+[WARNING]
+====
+The whole table doesn’t resize as you resize a column by dragging; instead, your new column eats up the space of the column next to it. To get it right, you’ll have to resize all the columns in your table, starting with the last and moving in to the column you originally wanted to resize. This isn’t a problem if you resize via the Table Inspector (see below).
+
+
+====
+
+
+In addition to the usual text options in the Format Bar, you get a few extra choices when you’re working with tables (&lt;&lt;format_bar_gives_you_special_tools_when&gt;&gt;). First, you’ll notice there’s a new paragraph alignment button: “Auto-align table based on content type.” This clever button can tell if your table cells contain text or numbers, and aligns the cell contents to the left or right, accordingly. Next to that are the vertical alignment buttons, which let you align text at the top, middle, or bottom of a cell. Select a single cell to change the alignment of just that cell, or select the whole table to change all the text.
+
+[[format_bar_gives_you_special_tools_when]]
+.The Format Bar gives you special tools when you’re working with tables.
+image::figs/web/0314.png[]
+
+With the next couple of buttons, you can add rows or columns to your table, and if your table has empty rows or columns at the end, you can remove them here, too (but you can’t subtract rows or columns here if they contain text). Use the up and down arrows to choose how many rows and columns you want.
+
+Use the fill box to set the fill color of selected cells, rows, or columns (but not the entire table). Select the cells you want and click the swatch to choose a color.
+
+[[ch03note09]]
+[TIP]
+====
+To select multiple cells, hold down the shift key and click the cells you want. You can also select whole rows or columns this way, or right-click or control-click on any cell in the row or column and choose “Select Row” or “Select Column.”
+
+
+====
+
+
+Finally, you have the anchor options (see &lt;&lt;anchors&gt;&gt;) and text wrap (see &lt;&lt;text_wrap&gt;&gt;).
+
+When you right-click or control-click on a table, you can choose how many header rows, header columns, or footer rows to give your table, and you can also add or delete rows and columns, and split or merge cells (&lt;&lt;hereapostrophes_an_example_of_a_table_wi&gt;&gt;). To merge two cells into one big cell that spans multiple rows or columns, select the cells (they must be adjacent to each other), right-click, and turn on Merge Cells. To split cells that you previously merged, right-click again, and turn off Merge Cells. The split options divide a cell into two cells, each taking up half the column or row (but you can adjust the sizes if you want).
+
+[[hereapostrophes_an_example_of_a_table_wi]]
+.Here’s an example of a table with merged cells (middle top), a cell split into rows (top right), and a cell split into columns (bottom right). You can merge and split cells by selecting one or more cells and then control-clicking or right-clicking and choosing one of the merge or split options from the context menu.
+image::figs/web/0315.png[]
+
+
+[[table_inspector]]
+==== Table Inspector
+
+Naturally, Author has a special Inspector just for tables, where you can adjust the formatting even more. To get to the Table Inspector, click Inspector from the Toolbar and choose the Table tab (fourth from right). There are two tabs here: Table and Format. The Table tab has all the visual formatting options, and Format has some special spreadsheet-like options to control the data in your cells.
+
+Here’s what you get in the Table tab:
+
+Body Rows and Body Columns:: Just like the buttons in the Format Bar, these boxes let you add rows and columns, or remove them as long as they don’t contain any text. (To delete rows or columns that contain text, you need to right-click or control-click and choose Delete from the menu that pops up.)
+
+Headers &amp; Footers:: Choose how many header and footer rows to have, and whether to have header rows along the top or along the right side (or both).
+
+Edit Rows &amp; Columns:: Gives you the same options you get by right-clicking or control-clicking: Add rows or columns, select, delete, merge, and split. You can also sort the cells in a column in ascending or descending order. To use this option, you need to have a cell selected rather than the whole table; then choose the sort style you want, and Author reorders the rows in your table so that cells in the column you chose are sorted appropriately.
+
+Column Width and Row Height:: Adjusts the size of your rows and columns, if you don’t want to drag. The benefit of resizing this way is that your table will shift over, instead of the resized row or column poaching space from the ones next to it. You can’t size a row or column smaller than the amount of space needed by the text within it, though.
+
+Cell Borders:: Adjust the line width and color of the borders of individual cells or the entire table. Choose which border you want to format by clicking the appropriate button, and then choose the line style, weight, and color.
+
+Cell Background:: Add a background color to one cell or a group of cells (but not the entire table). You can choose either Color Fill or Gradient Fill. For Color Fill, click the swatch to choose the color you want from the color picker. For Gradient Fill, choose the two colors you want the gradient to blend together, choose an orientation (blend vertically or horizontally), and set an angle to skew the orientation if you want. Gradients are a risky design choice, and could make your book look amateurish, so use them judiciously.
+
+At the bottom of this section, turn on the Alternating Row Color checkbox to automatically fill alternating rows with a color you choose (by clicking the swatch). This adds a visual distinction between rows, which helps readers navigate your table more easily.
+
+Table Options:: There’s only one checkbox here: “Return key moves to next cell.” Turn this on, and when you have a cell selected, all you need to do is hit Return to select the next cell.
+
+With the Format tab, you can turn your table into a mini-spreadsheet. Here are your options:
+
+Cell Format:: Tell Author what the contents of the cell are: plain text, a number, a date or time, and so on. You get some further formatting options based on what you choose from the drop-down—how many decimal places to show (for numbers), what date format to use, etc.
+
+Conditional Format:: Apply custom formatting to a cell or its contents depending on if it meets certain conditions (see &lt;&lt;top_row_in_this_table_has_a_custom_condi&gt;&gt;). For example, add a green background to every cell containing a value higher than 100. Click Show Rules to add a new condition. There are a number of variables you can choose from, making it almost infinitely customizable for your data.
+
+Function:: Perform some mathematical calculations and show the results in your cell. You can choose one of the predefined functions: Sum, Average, Min, Max, Count, Product. If that doesn’t do it for you, you can build your own with the Formula Editor. Apple put together a helpful guide about formulas and functions that you can download for more info: link:$$http://manuals.info.apple.com/en_US/Formulas_and_Functions_User_Guide.pdf$$[].
+
+Wrap Text in Cell:: Turn this on and your cells will automatically grow to fit your text. If you turn it off and your text gets too long, it’ll just disappear past the cell borders.
+
+[[top_row_in_this_table_has_a_custom_condi]]
+.The top row in this table has a custom condition applied that turns a cell green if the value is greater than 35. You can create your own conditions and add formulas to your table to make it smarter.
+image::figs/web/0316.png[]
+
+
+[[adding_pages]]
+=== Adding Pages
+
+When you import text, Author will automatically add as many pages as needed to fit all your content, and it will keep adding pages as your content shifts. However, if you’re adding text on a page-by-page basis, or you want to add extra pages, click the page thumbnail that you want to add pages after, click the Add Pages button in the top left of the Toolbar, and choose the page layout style you want your new pages to use (&lt;&lt;add_pages_with_the_click_of_a_buttoncomm&gt;&gt;). Once your pages are there, you can’t move them around, so make sure you get them in the right spot.
+
+Adding sections and chapters works the same way. Select the section or chapter that you want to add pages after, choose Add Pages, and choose the chapter or section type that you want to use. Unlike individual pages, you can rearrange your sections and chapter by dragging them around within the Book menu.
+
+You can change the layout for any page, section, or chapter. Select the page in question and click the little arrow that appears to the right. You get a list of all the available layouts to choose from. (For more about layouts, see &lt;&lt;layouts&gt;&gt;.)
+
+[[add_pages_with_the_click_of_a_buttoncomm]]
+.Add pages with the click of a button, and change a page’s basic layout by choosing one of the layouts from the drop-down menu.
+image::figs/web/0317.png[]
+

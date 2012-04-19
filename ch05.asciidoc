@@ -1,0 +1,270 @@
+
+[[layouts]]
+== Layouts
+
+You can create your own Chapter, Section, and Page layouts and add them to your Layout menu to use throughout your book. Go to View → Show Layouts, and a new section opens up above the Book menu showing all the different layout options. Click one, and it opens in the editing window. If all you want to do is make a few small changes to the canned layout, go ahead and do that here. A big red button will appear next to the page thumbnail in the Layouts window after you make a change; click it to apply your changes to the layout, which will also add them to any pages in your book that currently use that layout.
+
+If you want to make a brand new layout from scratch, make sure you have a layout selected from the type you want to create (either Chapter, Section, or Page), and then in the Toolbar, click the Add Layout button (when you’re editing your regular pages, this button reads Add Pages). A new page or spread gets added to that group. Click twice on the name of the new page to rename it.
+
+[[ch05note01]]
+[NOTE]
+====
+In many other page layout programs, these kinds of layout pages are called _master pages_, because they control how all the rest of the pages look.
+
+
+====
+
+
+You can add as much as you want to a layout page—colorful boxes, footers with the page number, running headers with the chapter title or section title... the sky’s the limit (&lt;&lt;hereapostrophes_a_simple_layout_body_pag&gt;&gt;)! If you want to be able to change your layout elements on a page-by-page basis, select that element and in the Layout Inspector turn on the “Editable on pages using this layout” checkbox.
+
+[[ch05note02]]
+[NOTE]
+====
+This option is only available when you’re editing a layout, not on regular pages.
+
+
+====
+
+
+[[hereapostrophes_a_simple_layout_body_pag]]
+.Here’s a simple layout body page with a running header containing the current section number (see &lt;&lt;text_variables&gt;&gt;), a running footer with the page number, and two linked text boxes tagged as body text (see &lt;&lt;text_flow_and_tags&gt;&gt;).
+image::figs/web/0501.png[]
+
+
+[[layout_inspector]]
+=== Layout Inspector
+
+Everything has an Inspector in Author, and Layouts are no exception. The Layout Inspector gives you some basic tools to adjust the main elements on your page, and also lets you set the section and page numbering.
+
+On the Layout tab, you only have a few options. If you have a text box selected, you can set how many columns it should have, and how wide each column should be, and if you’re looking at a layout page, you can choose to make your page elements editable on regular pages and tag your text boxes (see &lt;&lt;text_flow_and_tags&gt;&gt;).
+
+The Numbering tab is only active when you’re looking at a regular page, _not_ a layout page. This is where you decide how to number your sections: relative to the whole book (meaning all sections will be numbered sequentially, no matter what chapter they’re in), relative to chapter (section numbering will restart at 1 with each new chapter, and will be preceded by the chapter number—1.1, 1.2, 2.1, and so on), or not at all. You can also set what page number to start each section on. Leave “Continue numbering” selected if you want to number the book sequentially, or type a number in the “Start at” box for the section you currently have selected.
+
+
+[[text_variables]]
+=== Text Variables
+
+In the Insert menu, Author offers you four text variables that you can insert on your pages: Section Title, Section Number, Page Number, and Page Count. When you add a variable to your page and select it, it shows up inside a blue box—this is your visual cue that the text is _dynamic_. Dynamic text refers back to a master text field and mirrors whatever is typed there. So, for example, the main text field for a section title is on the first page of the section, and whatever you type there will be reflected in any section title variables you’ve inserted (&lt;&lt;working_with_text_fields_and_variables_c&gt;&gt;).
+
+[[ch05note03]]
+[NOTE]
+====
+Remember that Author is touchy about letting you edit text fields within your pages. See the Warning in &lt;&lt;importing_a_text_file&gt;&gt; for more info.
+
+
+====
+
+
+[[working_with_text_fields_and_variables_c]]
+.Working with text fields and variables can be tricky, but it is a big time-saver, especially when setting up your Layout pages. Use them to add running headers and footers throughout your document. In this figure, the chapter title at top left is a text field, telling the running footer (bottom right) what to display.
+image::figs/web/0502.png[]
+
+
+[[text_flow_and_tags]]
+=== Text Flow and Tags
+
+Author seems to still have some kinks to work out when it comes to getting text to flow between pages and text boxes, but as long as you know the tricks, you can get it working just fine.
+
+To get text to flow, you need to add text boxes to your Layout pages. For each text box, turn on “Editable on pages using this layout” in the Layout Inspector. You also need to tag the text box. Author uses tags to know what kind of text should go in each box. Then, if it runs out of room in one text box, it can just find the next text box with the same tag and flow the rest of your text in there.
+
+Note that you can only use a tag once per page. However, if you tag a text box, and then create a new linked text box by clicking the blue arrow on the right edge of the box, near the bottom, your new text box will share that same tag. When you switch to your regular text pages, you can add more linked text boxes from your default layout boxes by clicking the blue arrow and clicking again on the page.
+
+[[ch05note04]]
+[NOTE]
+====
+You can’t create linked text boxes from static text boxes you add to your book pages (that is, text boxes that aren’t part of the Layout page).
+
+
+====
+
+
+You can split a text box into columns to get a structured design grid to help you lay out the pages. When working with a single columnar box, you can give each column in your text box a unique width. In the Layout Inspector, turn off the “Equal column width” checkbox, and then type the values you want in the list. You can also tell Author how much space to add between columns in the Gutter column.
+
+[[ch05note05]]
+[TIP]
+====
+If you go the multicolumn text box route, use column breaks to adjust the amount of text in each column; see &lt;&lt;column_and_page_breaks&gt;&gt;.
+
+
+====
+
+
+One thing you can’t do with a multicolumn box is apply different vertical alignment to each column. For example, you can’t have the text in the first column aligned to the top of the box, and then have the text in the second column aligned to the bottom. You’re better off using separate text boxes for this (&lt;&lt;two_custom_layout_pagessemicolon_one_use&gt;&gt;).
+
+[[two_custom_layout_pagessemicolon_one_use]]
+.Two custom layout pages; one uses two static linked text boxes (top) and the other uses a single text box split into two columns (bottom).
+image::figs/web/0503.png[]
+
+
+[[save_as_template]]
+=== Save as Template
+
+If you’ve heavily customized your layout, you can save it as a new template and use it for future books. Choose File → Save as Template, give it a unique and meaningful name, and click Save. The next time you start a new Author project, you’ll see your template listed in the Template Chooser.
+
+
+[[creating_complex_layouts_left_parenthesi]]
+=== Creating Complex Layouts (Tutorial)
+
+The easiest way to learn is to do, so in this section you’re going to walk through recreating one of the layouts from the _Life on Earth_ free sample from the iBookstore—pages 27 and 28.
+
+
+[[step_1_set_up_the_page_structure]]
+==== Step 1: Set Up the Page Structure
+
+First, go to Author → Preferences, and in the Rulers tab, choose Points as your unit of measurement.
+
+Create a new document using the Basic template, and add two more blank pages after page 3 (Toolbar → Add Pages→Pages→Blank). You want your pages to form a _spread_—a pair of facing pages. In a printed book, if you have the book lying open in front of you, the two pages you see form a spread.
+
+[[ch05note99]]
+[NOTE]
+====
+Two contiguous even and odd body pages (eg, page 4 and 5) will automatically form a spread when  exported to the iPad, though it may not look like it in Author.
+
+
+====
+
+
+Make sure the rulers are turned on (View → Show Rulers) and your layout boundaries are showing (View→Show Layout Boundaries).
+
+Go to View → Show Layouts, and select the Blank page layout. Click New Layout and give your layout a meaningful name. Click the ruler running vertically along the edge of your page, and holding down your mouse button, drag to the right. A blue guide line will appear—drag it to 30pt (use the yellow info box that appears to help you get to the right spot). Add another guide line the same way, but position it at 994pt. Now drag from the ruler running along the top to add horizontal guides at 30pt and 719pt.
+
+Add a text box to the page, and in the Layout Inspector, turn on “Enable on pages using this layout”—this will let you change the size and position of the text box on individual pages as needed, to accommodate the rest of the content on the page. In the Tag drop-down, choose “body.”
+
+Make the text box about 468 points wide and 630 points tall. Position it so it’s centered vertically on the page (a blue guide will pop up cutting through the middle of your text box when you get to the right spot) and its left edge is flush with the left vertical guide.
+
+Next select your text box, and click the little blue arrow on the right edge, near the bottom, and then click again in the blank space on the right side of the page. When you click, Author adds a new text box linked to your first. Drag it so that it is also centered vertically and its right edge is flush with the guide at 994pt. &lt;&lt;at_this_pointcomma_you_should_have_four&gt;&gt; shows what your layout should look like.
+
+[[at_this_pointcomma_you_should_have_four]]
+.At this point, you should have four guide lines and two linked text boxes on your layout page.
+image::figs/web/0504.png[]
+
+Now go to Toolbar → Shapes, and insert a line.
+
+Align the line with the guide at the top of the page. Hold down shift and drag the ends of the line until it’s also aligned to the guides running vertically. (Holding down the Shift key keeps the line straight.)
+
+In the Graphic Inspector, make the stroke a 5-point solid line at about 50 percent black (medium gray). Then with the line still selected, choose Arrange → Lock. You now have a nice header rule to run on every page that uses this layout.
+
+[[ch05note06]]
+[NOTE]
+====
+“Rule” is just design terminology for a line.
+
+
+====
+
+
+Now let’s add a running footer that includes the page number. Insert a new text box (Toolbar → Text Box). Drag it down to the bottom of the page and resize it so the edges are flush with the vertical guidelines, the bottom is flush with the bottom of the page, and the top with the bottom guideline.
+
+Click the placeholder text in the text box, and choose Insert → Page Number. The current page number will appear in your box. Align the page number in the center using the align buttons in the Format Bar. Then select the number, and in the Format Bar change the font family to Helvetica, size 14 points, and color about 50 percent black (that is, medium gray). Right-click or control-click the page number and choose “Create Paragraph Style from Selection.” Give your new style a name (like Page Number or Folio) and hit OK.
+
+With the text box still selected, open the Text Inspector. Go to the More tab and give the text box a solid .5-point black top border, with an Offset of –2 points. Choose Arrange → Send to Back and the Arrange→Lock. The basic page layout is all set (&lt;&lt;youapostropheve_now_added_a_top_and_bott&gt;&gt;), so now it’s time to move on to the pages themselves.
+
+[[youapostropheve_now_added_a_top_and_bott]]
+.You’ve now added a top and bottom rule and a running footer containing the current page number of the page you’re on.
+image::figs/web/0505.png[]
+
+[[ch05note07]]
+[TIP]
+====
+Toggle the Layout Boundaries on and off (by typing Shift-Command-L) to see your text box edges and help get the alignment right.
+
+
+====
+
+
+
+[[step_2_add_the_image_gallery]]
+==== Step 2: Add the Image Gallery
+
+Click the thumbnail for page 4 in the Book menu, click the little arrow that appears, and choose your new page layout from the drop-down list. Do the same for page 5.
+
+In the editing window for page 4, select and delete the text box on the left side of the page, and resize the text box on the right so it’s about 360 points wide (but make sure its right edge is still flush with the right edge of the top and bottom rules). Then click the Widgets button on the Toolbar and choose Gallery.
+
+Select the Widget box and then shift-click to select the text box as well, and choose Arrange → Align Objects→Top. Then drag the Gallery box over so its left edge is even with the left endpoint of your top and bottom rules (a blue guide will show up connecting them when you get to the right spot).
+
+Select the Gallery box and open the Widget Inspector. In the Layout tab, choose Bottom from the Layout drop-down menu, turn off Background, and drag the Margin slider down to 0. Grab the bottom-right resize handle and resize the widget so it’s 565 points wide and 630 points tall (or use the Metrics Inspector; see &lt;&lt;use_the_metrics_inspector_left_parenthes&gt;&gt;).
+
+[[use_the_metrics_inspector_left_parenthes]]
+.Use the Metrics Inspector (the ruler icon) to get precise sizes and positions for the elements on your page.
+image::figs/web/0506.png[]
+
+Click the Gallery title and type _Grasslands_. Select your new caption and in the Format Bar, change the font family to Helvetica and change the color to black. Open the Styles Drawer (View → Show Styles Drawer) and find the paragraph style being used—it should be Figure Title. Click the red arrow next to the style name, and choose “Redefine Style from Selection.” All your sidebar captions will now use Helvetica and be black.
+
+Next select the Gallery Label. Change the font to Helvetica Bold 15 point, and choose a nice, rich orangeish red from the color picker. Go to Format → Font→Capitalization, and choose Title. Leave the label selected, and in the Styles Drawer, find the Figure Label character style. Being careful not the click the style name, click the little arrow next to it, and choose “Redefine Style from Selection.” All your Widget labels will now use this new style (unless you change them in the Widget Inspector).
+
+If you want to get rid of that pesky label number, the way it is in _Life on Earth_, you’ll have to manually insert the label. In the Widget Inspector, choose None from the Label drop-down menu. Then type the word &lt;&lt;gallery&gt;&gt; and a space, select it, and apply your redefined Figure Label character style.
+
+Click the caption and add your caption text. Then select the text, and in the Format Bar choose Palatino from the font family, Italic for the face, size it to 15 points, and make it black (&lt;&lt;hereapostrophes_how_page_4_looks_with_th&gt;&gt;).
+
+[[hereapostrophes_how_page_4_looks_with_th]]
+.Here’s how page 4 looks with the finished image gallery.
+image::figs/web/0507.png[]
+
+
+[[step_3_add_the_body_text]]
+==== Step 3: Add the Body Text
+
+Add some text to the remaining text box on page 4, select just one paragraph or all of it, and style it Palatino Regular 16 point. Then find the Body paragraph style in the Styles Drawer, click the red arrow, and choose “Redefine Style from Selection.”
+
+Add a new paragraph at the top of the text box, and type _Grasslands_. Apply the Heading 2 paragraph style, then select the paragraph text and style it Helvetica Bold 18 point black. Open the Text Inspector, and on the Text tab, drag the After Paragraph slider to 0 points. With your paragraph still selected, find the Heading 2 paragraph style in the Styles Drawer, click the arrow and choose “Redefine Style from Selection.”
+
+Now move over to page 5. Delete the text box on the right side of the page and resize the remaining box so there’s about an inch of space at the bottom. Your layout should look like &lt;&lt;pages_4_and_5comma_complete_with_textdot&gt;&gt;.
+
+[[pages_4_and_5comma_complete_with_textdot]]
+.Pages 4 and 5, complete with text.
+image::figs/web/0508.png[]
+
+
+[[step_5_add_movie_hash1]]
+==== Step 5: Add Movie #1
+
+Still on page 5, insert a Media Widget (Widgets → Media). You should notice that the label and caption look the same as the ones you styled for the Gallery on page 4. Align the Movie with the top of the text box and the right edge of the top and bottom rules. Resize it so there’s just a small gap between the Movie and the text box.
+
+Select the Movie and open the Widget Inspector. In Layout, choose Top from the drop-down, and then turn off the Caption checkbox (you may need to readjust the Movie position on the page after you do this), Turn off Background, and drag the Margin slider to 0. Resize the box to 350 points high (&lt;&lt;page_5_with_the_boxed_moviedot&gt;&gt;).
+
+Again, to get rid of the label number entirely, you’ll need to delete the whole thing and retype it.
+
+[[page_5_with_the_boxed_moviedot]]
+.Page 5 with the boxed movie.
+image::figs/web/0509.png[]
+
+
+[[step_6_add_movie_hash2]]
+==== Step 6: Add Movie #2
+
+Now for that Earth-shaped movie. Insert another Media Widget, and immediately open the Widget Inspector. On Interaction, turn on the “Full-screen only” checkbox. Then in Layout, choose Freeform from the drop-down, turn off Background, and drag the Margin slider to 0.
+
+On the page, click the gray movie icon. Size it to 665 points wide and 480 points tall, and move it to x: –364pt, y: 310pt. With the movie holder still selected, choose Format → Image→Mask with Shape→Oval. Resize the oval mask to 480 points by 480 points, and make sure its position is x: –109pt, y: 310pt. (If the mask and movie placeholder get misaligned, click the movie placeholder and drag it into place within the oval mask.)
+
+Move the movie title next to the right edge of the oval mask, with just a little space between them. Make it 537 points wide, and as small as possible to just fit the text. Go to the Wrap Inspector and type _0_ in the Extra Space box. Select the caption box and make it 537 points wide as well, and tall enough to fit three lines of text. Set the Extra Space to 0 in the Wrap Inspector, and move it just below the title text box. Select both boxes, and choose Arrange → Align Objects→Left. Select both boxes, and set the x position to 382 points.
+
+If you actually have video content to place in your movie frame, select the movie box and click Edit Media—Author opens up a blank overlay where you can add your movie file by dragging and dropping it into place. Once you’ve added a file, the Widget Inspector gives you some options in the Interaction tab. Set positions in the movie to start and stop playing (for example, if you want to skip a few seconds at the beginning). Use the Poster Frame slider to choose a still frame to represent your movie in your text, and choose whether or not to loop your movie in the Repeat drop-down (&lt;&lt;when_you_add_a_movie_to_the_movie_widget&gt;&gt;).
+
+[[when_you_add_a_movie_to_the_movie_widget]]
+.When you add a movie to the Movie widget, you can control how it appears when it’s not playing and how your readers interact with the movie.
+image::figs/web/0510.png[]
+
+Unfortunately, getting an image to span two pages isn’t as easy as it would seem. You actually have to place two images—one on each page—and arrange them so they overlap perfectly. Select the oval mask and press command-C to copy it. Then go to page 4, click in some white space (to deselect your Movie Widget), and press command-V. Your masked movie image is added to the page. Click it and drag it over to the edge of the page. Slowly drag it to the correct position. This takes some finesse, but when you get close, Author can sense what you’re trying to do and will snap the duplicate image into the right position. Just make sure your cursor stays on page 4 while you’re dragging; if at any point your cursor crosses over to page 5, the copied image will cross over to page 5 as well. See &lt;&lt;here_are_the_finished_pagescomma_with_pl&gt;&gt; for the finished pages.
+
+[[pro_tips_just_for_once_donapostrophet_wo]]
+.Just for Once: Don’t Worry About File Size
+****
+Just for Once: Don’t Worry About File Size Remember that warning about movies and file size (see &lt;&lt;pro_tips_watch_your_file_size&gt;&gt;). Well, don’t fear: You’re not actually inserting the movie file twice into your book. Author doesn’t embed images, audio, or movies into your pages; instead, it saves the media file in a special folder and just links to it. So when you copy the image holder, you’re just adding a second link to the same movie file—a second place to play the file. Think of it like TV—the TV station broadcasts from one location, but it gets shown on lots of TVs.
+
+
+****
+
+
+[[here_are_the_finished_pagescomma_with_pl]]
+.Here are the finished pages, with placeholders for two movies, an image gallery, and some body text.
+image::figs/web/0511.png[]
+
+[[ch05note08]]
+[NOTE]
+====
+If you really screw up a page or an entire section or chapter, you can revert to the original layout. Hover over the page thumbnail in the Book menu and then click the little arrow that appears to the right. Choose “Reapply Layout” to get back to square one. This won’t delete any extra stuff you’ve added, like sidebars, images, tables, or text; it’ll just get the basic page structure looking the way it used to.
+
+
+====
+
+

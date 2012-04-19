@@ -1,0 +1,126 @@
+
+[[preface]]
+== Preface
+
+iBooks Author is the first tool of its kind. Never before have publishers, authors, and content creators had a tool for making dynamic, interactive books in a WYSIWYG environment. This book is intended to get you up and writing in iBooks Author. You’ll learn what to expect from this new tool and what its strengths and limitations are. You’ll see how you can create beautifully designed pages and how you can bring those designs to life with interactive content in ways that, before now, were only possible in a web browser on the Internet. You’ll also find out how to navigate the occasionally tricky terrain of Apple’s ecosystem so that you can get your book published to the iBookstore.
+
+
+[[things_to_know_and_consider_up_front]]
+=== Things to Know and Consider Up Front
+
+Before you start making your book, take a moment to understand just what you’re diving into by using Apple’s platform. The list that follows is not intended to scare you, but rather to give you the facts up front so that you can decide if iBooks Author is right for your project.
+
+You will only be able to sell your book in the iBookstore.:: If you use iBooks Author to create your book, you cannot export the file and sell it in any channel other than the iBookstore. You can’t sell it on your website. You can’t sell it on Amazon. You can’t sell it anywhere else. This restriction is included in the iBooks Author EULA (End User License Agreement) and specifically applies to the ebook format (_.ibooks_) and not the content of the book. The following is from version 1.0.1 of the EULA:
+
+If you want to charge a fee for a work that includes files in the .ibooks format generated using iBooks Author, you may only sell or distribute such work through Apple, and such distribution will be subject to a separate agreement with Apple. This restriction does not apply to the content of such works when distributed in a form that does not include files in the .ibooks format.
+
+Your book will work on only one device: an iPad.:: Apple’s iBooks Author outputs files that are nonstandard and are specifically tailored for an iPad. You won’t be able to open them on any other reading device, including a Kindle or a NOOK. You won’t even be able to open your book on your desktop computer.
+
+You will not be able to create print-ready PDFs.:: If you have experience with traditional publishing tools such as FrameMaker or InDesign, you’re used to being able to output a CMYK PDF with printers’ marks. These options are not available. You can output a PDF, but it won’t be suitable for professional printing.
+
+You will likely be entering into an agreement with Apple.:: If you plan to publish to the iBookstore, you must apply for a seller account, of which there are two types: a Paid Books Account and a Free Books Account. It is in your best interest to consider up front which you will be using. You can read about each type of account in “Choosing Between a Paid and Free Account.”
+
+Publishing with iBooks Author is not necessarily free.:: While it is true that the application is free, there are costs associated with publishing a paid book in the iBookstore, including but not limited to the following:
+
+
+* A single ISBN in the US costs $125 (see &lt;&lt;publish_your_book&gt;&gt; for more information).
+
+
+* Apple takes 30 percent of every sale that you make.
+
+Read the link:$$http://www.apple.com/itunes/content-providers/book-faq.html$$[Book Publisher FAQ] to learn more about what to expect from working in Apple’s new ebook ecosystem.
+
+
+[[why_ibooks_author_is_worth_considering]]
+=== Why iBooks Author Is Worth Considering
+
+If you’re looking to create books that are digital first, use dynamic page designs, and are truly interactive, there is no better tool for the job than iBooks Author. Some readers may quibble with that last sentence, but at the time of this writing it is undeniably true. iBooks Author is an innovative step forward in book making, and you have an opportunity to be a part of that, whether you’re a publisher or just someone who has always wanted to write that cookbook but never knew where to start.
+
+Despite the restrictions and limitations described in the previous section, iBooks Author may still be right for your book project. After all, developers have been using Apple’s tools and platforms to publish iPad and iPhone applications for years under similar types of restrictions. They’ve accepted the terms, and some have had tremendous success under those terms.
+
+If you’re writing a simple fiction book, iBooks Author may be more than you need, unless superb digital page design is very important to you. Even then, it’s probably a good idea not to load your novel with video and interactivity; many readers find this more of a distraction than an enhancement. Step back and ask yourself, “What is this video/audio/widget adding to the reader experience?” (Again, this warning is meant just for you fiction writers—when it comes to reference books or learning materials, multimedia can add a great deal.)
+
+
+[[audience_for_this_book]]
+=== Audience for This Book
+
+This book is written for anyone who is interested in getting up and running in iBooks Author quickly. It assumes you know little about publishing and even less about ebook formats, a topic in which this book isn’t interested. Readers who are comfortable with Apple’s OS X applications in general will undoubtedly be more at ease learning about this particular application. This book assumes you know what a toolbar is and how to navigate your way through a standard OS X menu, but it also assumes that you’re looking at iBooks Author for the first time.
+
+This book assumes you’re new to the Apple iTunes ecosystem and to its various tools and the peculiarities of its platform. It assumes, for example, that you do not already have an iTunes Connect account.
+
+
+[[conventions_used_in_this_book]]
+=== Conventions Used in This Book
+
+The following typographical conventions are used in this book:
+
+Plain text:: Indicates menu titles, menu options, menu buttons, and keyboard accelerators (such as Alt and Ctrl).
+
+_Italic_:: Indicates new terms, URLs, email addresses, filenames, file extensions, pathnames, directories, and Unix utilities.
+
+[[pref01note01]]
+[NOTE]
+====
+Signifies a tip, suggestion, or general note.
+
+
+====
+
+
+
+[[pref01warning01]]
+
+[WARNING]
+====
+Indicates a warning or caution.
+
+
+====
+
+
+
+[[how_to_contact_us]]
+=== How to Contact Us
+
+Please address comments and questions concerning this book to the publisher:
+
+
+O’Reilly Media, Inc.  +
+1005 Gravenstein Highway North +
+Sebastopol, CA 95472  +
+(800) 998-9938 (in the United States or Canada) +
+(707) 829-0515 (international or local) +
+(707) 829-0104 (fax)
+
+We have a web page for this book, where we list errata, examples, and any additional information. You can access this page at:
+
+
+link:$$http://www.oreilly.com/catalog/9781449329785$$[]
+
+To comment or ask technical questions about this book, send email to:
+
+
+bookquestions@oreilly.com
+
+For more information about our books, courses, conferences, and news, see our website at link:$$http://www.oreilly.com$$[].
+
+Find us on Facebook: link:$$http://facebook.com/oreilly$$[]
+
+Follow us on Twitter: link:$$http://twitter.com/oreillymedia$$[]
+
+Watch us on YouTube: link:$$http://www.youtube.com/oreillymedia$$[]
+
+
+[[safarireg_books_online]]
+=== Safari® Books Online
+
+Safari Books Online (link:$$http://www.safaribooksonline.com/$$[www.safaribooksonline.com]) is an on-demand digital library that delivers expert link:$$http://www.safaribooksonline.com/content$$[content] in both book and video form from the world’s leading authors in technology and business. Technology professionals, software developers, web designers, and business and creative professionals use Safari Books Online as their primary resource for research, problem solving, learning and certification training.
+
+Safari Books Online offers a range of link:$$http://www.safaribooksonline.com/subscriptions$$[product mixes] and pricing programs for link:$$http://www.safaribooksonline.com/organizations-teams$$[organizations], link:$$http://www.safaribooksonline.com/government$$[government agencies] and link:$$http://www.safaribooksonline.com/individuals$$[individuals]. Subscribers have access to thousands of books, training videos and prepublication manuscripts in one fully searchable database from publishers like O’Reilly Media, Prentice Hall Professional, Addison-Wesley Professional, Microsoft Press, Sams, Que, Peachpit Press, Focal Press, Cisco Press, John Wiley &amp; Sons, Syngress, Morgan Kaufmann, IBM Redbooks, Packt, Adobe Press, FT Press, Apress, Manning, New Riders, McGraw-Hill, Jones &amp; Bartlett, Course Technology, and dozens link:$$http://www.safaribooksonline.com/publishers$$[more]. For more information about Safari Books Online, please visit us link:$$http://www.safaribooksonline.com/$$[online].
+
+
+[[acknowledgments]]
+=== Acknowledgments
+
+Thanks to Joe Wikert and Kat Meyer for continuing to build the link:$$http://www.toccon.com/toc2012$$[Tools of Change platform at O’Reilly], which gives us all a place to talk about innovations in publishing. Thanks to our editor, Brian Sawyer, for helping us pull this book together in short order, to Jennifer Scupi and Teresa Elsey for their amazing proofreading skills, and to Iris Febres for helping us dot all the i’s and cross all the t’s. Thanks to Laurie Petrycki for being an awesome boss. And thanks especially to our ebook development colleagues at O’Reilly—Sanders Kleinfeld, Ron Bilodeau, Andrew Odewahn, Sarah Schneider, and Jessica Hosman—each of whom is working on something new and exciting this very moment.
+

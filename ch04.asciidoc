@@ -1,0 +1,435 @@
+
+[[objects]]
+== Objects
+
+An _object_ is basically any nontext part of your book. Even text boxes are objects (but the paragraphs within them aren’t). Read on to learn about the different objects you can create and how to format them.
+
+
+[[images]]
+=== Images
+
+Images are a basic way to spice up your book. To add one, drag it from Finder or the Photos tab of the Media Browser. You can drag images into the placeholder image boxes that come with your chosen Template, or you can just drop them anywhere in the file. If your image is too big to fit where you want, resize it by clicking it and dragging one of the resize handles located evenly around the edges. The image scales proportionately to its original size.
+
+Select an image, and the Format Bar changes to cater to your selection (&lt;&lt;when_youapostrophere_working_with_object&gt;&gt;). The Styles Drawer button is still there, even though there aren’t any object styles. Next to that are options to add a stroke to your image. Author gives you a lot of sleek stroke and border styles to choose from. If the canned options aren’t enough, choose Show More... at the bottom of the list to create your own custom border. This opens the Graphic Inspector.
+
+[[when_youapostrophere_working_with_object]]
+.When you’re working with objects, the Format Bar adjusts to give you the basic tools you’ll need.
+image::figs/web/0401.png[]
+
+
+[[graphic_inspector]]
+==== Graphic Inspector
+
+There’s only one tab in the Graphic Inspector. The first choice—Fill—lets you add a background color to your selected object. This is generally only an option for shapes or text boxes (images are already filled with, well, themselves).
+
+Your next choice is Stroke. Choose a base style to work with from the drop-down list: line or picture frame (“none” means no border at all). Line and picture frame give you different options within the Graphic Inspector. If you choose line, your choices are as follows:
+
+Style:: Choose from solid, dotted, dashed, and a handful of hand-drawn styles.
+
+Color:: You’ve got the whole rainbow to choose from, but try to keep your color usage consistent throughout your book, or it could become distracting for readers.
+
+Width:: How thick the line is.
+
+Choosing picture frame instead of line changes the first three options to the following two:
+
+Frame style:: You have 12 choices, and all of them are pretty cool. Choose the one that works best with your book.
+
+Scale:: How much of a border/frame to add around the image. Typically, smaller scale means a thinner frame.
+
+There are a few more options after you set up your stroke:
+
+Shadow:: Turning this on adds a drop shadow to your image (&lt;&lt;hereapostrophes_an_image_with_a_drop_sha&gt;&gt;). If you choose this, you get some extra options just for customizing the shadow:
+
+
+* Color. The default color for the shadow is solid black, which is usually perfect. However, if you’re going for the psychedelic-mist look, click the black swatch to get to the color wheel, and drag the slider up until you can see some color, and then choose the one you want.
+
+
+* Angle. Adjusts the balance of the shadow beneath your image. You can use the little wheel or the up/down arrows to change the angle. Watch your image as you adjust it and stop when it looks right.
+
+
+* Offset. Shifts the shadow farther up or down behind your image, making it seem like the light is pointing down at a steeper angle.
+
+
+* Blur. Diffuses the shadow farther out around your image.
+
+
+* Opacity. Makes your shadow more or less visible. By default, it is usually set at 100 percent.
+
+Opacity:: Turns your image more or less transparent. Setting the opacity to 100 percent means you can’t see anything behind the image; the lower the opacity, the more see-through the image becomes (&lt;&lt;hereapostrophes_an_image_with_a_drop_sha&gt;&gt;).
+
+[[hereapostrophes_an_image_with_a_drop_sha]]
+.Here’s an image with a drop shadow and an opacity of 45 percent. It’s floating over the text with no text wrap (please don’t do this to your poor readers).
+image::figs/web/0402.png[]
+
+Once you’ve settled on a stroke and shadow style, head back to the Format Bar for some extra image styling options.
+
+
+[[levels]]
+==== Levels
+
+Click the levels button to open the Adjust Image window, where you can sharpen up your image and tweak the color balance to get a nice clear look (or massively distorted, if you prefer). Click Enhance to give your computer control, letting it decide how your image will look best. This usually turns out pretty well, but some people like to have extra control. If you’re one of those, you can play with the following settings: Brightness, Contrast, Saturation, Temperature, Tint, Sharpness, Exposure, and Levels.
+
+[[ch04note01]]
+[NOTE]
+====
+We’re not going to dive too deep into the different image level settings, but if you need more info, check out link:$$http://bit.ly/yQtNYL$$[this Apple support page]. It was written for their Pages application, but the options are the same.
+
+
+====
+
+
+If you’ve gone through all that, and decide you liked your image better before, just click Revert to get back to the original.
+
+
+[[mask]]
+==== Mask
+
+Next to the levels button is mask (&lt;&lt;add_a_mask_to_focus_on_just_a_portion_of&gt;&gt;). Click to add a mask to your image, or click again to get rid of it. Adding a mask is kind of like cropping—it shows just a portion of the image. You can change which part of the image is shown by clicking and holding the image; your cursor turns into a little hand, and you can drag the image around behind the mask until the correct part is showing. Resize the image behind the mask by dragging the slider up and down. Once you’ve got your mask all set, you can resize the whole thing by clicking one of the resize handles around the mask window.
+
+You can also add a mask by selecting the image and choosing Format → Image→Mask or Mask with Shape; see &lt;&lt;mask_with_shape&gt;&gt; for more details.
+
+[[add_a_mask_to_focus_on_just_a_portion_of]]
+.Add a mask to focus on just a portion of an image. The parts of the image that won’t be visible appear muted; drag the image to the correct position within the mask shape, and adjust the size of the mask with the slider. You can even add a stroke to the mask, to make it stand out.
+image::figs/web/0403.png[]
+
+Next to the mask button, you have another chance to adjust your image’s opacity and to turn the drop shadow on or off.
+
+
+[[anchors]]
+==== Anchors
+
+The next three options are active or grayed out depending on how you added the image. If you dragged it onto some empty white space, these options are inactive. However, if you dragged your image into an empty paragraph or inline with some text, these buttons come into play. Choose Inline to leave your image just as you inserted it. Floating takes your image out of the text flow and lets you move it anywhere on the page. If you move paragraphs around or delete the paragraph where you originally placed the image, your image will be unaffected, and stay right where you put it.
+
+Anchored is usually a better option than floating (at least in landscape view; see the Warning below). It lets you tie your image to a specific point within the text, while still being able to drag it around on the page. This means that as you add or delete paragraphs, your image will stay on the same spread as the text it is anchored to. The image always shows up in the same position on the spread, however; for example, if you placed your image in the bottom right corner of the page, and anchored it to some text in the middle of that column, if that text then moves to the top of the first column on the next spread, your image will move to the bottom right corner of that new spread, in the same position as it was on the previous spread. It’s not perfect, but it’s a handy way to keep an image close to the paragraph that describes it.
+
+
+[[ch04note98]]
+
+[WARNING]
+====
+ Any static image or text box that you add either as floating or anchored will disappear in portrait orientation (but if you add it inline, it’ll show up fine and in the correct place). However, if you turn it into a widget (by adding a label; see &lt;&lt;figures&gt;&gt;), then it will be preserved in the margin in portrait view. Remember that you can add custom widget labels too; see &lt;&lt;media&gt;&gt;.
+
+
+====
+
+
+
+[[text_wrap]]
+==== Text Wrap
+
+Your last option in the Format Bar is text wrap. The style you choose here dictates how text will flow around the image when they overlap. You have six choices: wrap to the left, wrap around, wrap to the right, wrap to whichever side has the most space, and wrap only above/below. You can also choose no wrap, but if your image overlaps any text, that text won’t be visible.
+
+[[ch04note02]]
+[NOTE]
+====
+You can also adjust the float and text wrap in the Wrap Inspector (third icon from the left in the Inspector window). You have extra choices here: how to wrap around the shape of the image and how much space to add between the edges of the image and the wrapped text.
+
+
+====
+
+
+
+[[instant_alpha]]
+==== Instant Alpha
+
+With Instant Alpha you can choose to make parts of your image transparent (&lt;&lt;use_instant_alpha_to_make_this_tarsierap&gt;&gt;). Click to select the image, and then go to Format → Image→Instant Alpha. Author opens a little tip to help get you started, but here’s how it works: click on a color with the crosshairs to make that color transparent; drag to select more areas of the image around your original selection and make them transparent too, or click again on parts of the image that aren’t connected to your original selection. It usually works pretty well, but takes some getting used to and can sometimes give you unexpected results.
+
+[[use_instant_alpha_to_make_this_tarsierap]]
+.Use Instant Alpha to make this tarsier’s eyes transparent. Using the Instant Alpha tool, click a location on the eye, and drag out to expand the transparency area. All similar colors to the one you clicked will turn blue to show they’ve been selected.
+image::figs/web/0404.png[]
+
+
+[[mask_with_shape]]
+==== Mask with Shape
+
+This works just like the mask tool described above, but instead of a boring rectangle, you can choose almost any shape to use as your mask. Only the parts of the image that overlap with the shape will show. Go to Format → Image→Mask with Shape, and choose the shape you want from the menu. Author places the shape on top of your image, and you can resize both the image and the shape and move the image around behind the shape to get the correct parts to show.
+
+
+[[copy_graphic_style]]
+==== Copy Graphic Style
+
+If you do a lot of customizing and get a style that you really like, you can copy that style and use it on other images throughout your book. Select the image and choose Format → Copy Graphic Style. Then select the new image you want to style, and choose Format→Paste Graphic Style. Your new image should now match the first.
+
+[[ch04note03]]
+[NOTE]
+====
+Unfortunately, Copy Graphic Style only remembers one style at a time, so if you’ve got multiple image styles that you’re using throughout your book, you have to make sure you have the right image style copied to your clipboard before you paste. No harm if you accidentally paste the wrong style though; just undo and copy the correct style, then try again.
+
+
+====
+
+
+
+[[figures]]
+=== Figures
+
+You can turn any image into an official, numbered figure in your book via the Widget Inspector (&lt;&lt;use_the_widget_inspector_to_turn_your_im&gt;&gt;). Select the image, and then go to the Widget tab in the Inspector (the last icon at the top). Turn on the Title checkbox, and choose Figure from the label drop-down.
+
+Author wraps your figure in a box and adds a figure number as well as placeholder text for a caption. You can change the position of the caption in relation to the image in the Widget Inspector: click the arrow next to Layout, and choose the arrangement you want. Drag to adjust the size of the figure box; the image will resize to fit the box, but you can resize it further as needed.
+
+There are a few other options in the Widget Inspector. Turn on Caption to add more space for an extended description of the figure. Turn off Background to make your figure and caption seem like they float, rather than sit in a box. Drag the Margin slider to add more or less space between the figure content and the edges of the box.
+
+[[use_the_widget_inspector_to_turn_your_im]]
+.Use the Widget Inspector to turn your images into official numbered figures, complete with title and caption.
+image::figs/web/0405.png[]
+
+The Accessibility Description box lets you describe the figure for readers who are sight-impaired. The only option when it comes to Interaction is to make the image full-screen only. This shrinks your figure down on the page; readers would have to click the mini-figure to see it in full-screen view. You can change your mind about full-screen view at any time, and your figure reverts to the boxed style.
+
+[[ch04note04]]
+[NOTE]
+====
+Author takes care of auto-numbering your figures and other labeled objects for you, so you don’t have to worry about how many you’ve added and where. Author numbers each label type separately, so, for example, you can have a &lt;&lt;there_are_two_places_you_can_change_a_ch&gt;&gt; as well as a Movie 3-1. If you want to create your own label, in the Widget Inspector, open the Label drop-down and choose Edit Label Styles.... Here you can add new labels and choose how to number them and change or delete the existing styles.
+
+
+====
+
+
+
+[[shapes]]
+=== Shapes
+
+Author comes loaded with 15 shapes you can add to your book; if you still can’t find what you’re looking for, you can use the pen tool to draw your own shape (&lt;&lt;draw_your_own_shapes_using_the_pen_toold&gt;&gt;). To do so, click to create your shape outline, as if you’re making a connect-the-dots puzzle. To finish, either click your first endpoint again, or press Escape. Don’t worry if some of your shape’s points are slightly off—you can change them. Double click any of your shape’s endpoints, and they’ll turn red. You can now drag them around as needed. To round the edges, click again on any of the red points, and two extra little handles will appear. Pull and move the handles to create different curves from your formerly pointy peak.
+
+[[draw_your_own_shapes_using_the_pen_toold]]
+.Draw your own shapes using the pen tool. Edit your endpoints by double-clicking and dragging the red dots. Make curves by clicking one of the red dots and pulling the handles extending out on both sides.
+image::figs/web/0406.png[]
+
+To adjust the formatting of any shape—canned or drawn—use the Graphic Inspector (see &lt;&lt;images&gt;&gt;). To rotate a shape, hold down the control key and hover your cursor over any of the shape’s endpoints—it’ll turn into a curved arrow. Then, still holding down control, click and drag the shape to the correct orientation.
+
+Shapes can add some nice embellishment to your book, but be careful not to go overboard and clutter your pages.
+
+
+[[charts]]
+=== Charts
+
+Charts are a great way to visually represent data, and Apple has designed some nice ones for you to use. Click the Charts button in the Toolbar (or go to Insert → Chart) and Author gives you a list of the different kinds of charts you can choose. There are 11 options, 8 of which have both 2D and 3D versions. Choose the chart that’s right for your data, and Author unceremoniously drops it onto the middle of your page.
+
+[[ch04note05]]
+[NOTE]
+====
+This isn’t a book about charts and data visualization, but there are lots of resources out there to guide you in the right direction. For an overview of the most popular charts and when to use them, check out this article on mindtools.com: link:$$http://bit.ly/3vKeNo$$[]. For a purely visual (and fun) guide to data visualization, check out the “Periodic Table of Visualization Methods” at link:$$http://bit.ly/NjWI8$$[].
+
+
+====
+
+
+Along with your chart, you get a table filled with placeholder values—this is the Chart Data Editor, where you add the data for your chart. Change the data values in the Chart Data Editor. To delete a column, click any cell within that column, and then right-click anywhere _except_ the header row, and choose Delete Column. Adding a column generally adds another data point to your chart, and adding a row adds another data set. For example, if you chose a line chart, adding a new column will add another axis in your lines, and adding a row will add a whole new line to the chart. Click in the table cells to change the values, and do the same to change the labels. You can also change the labels by clicking directly on them in the chart, and you’ll see the Chart Data Editor update to match your change.
+
+You can adjust the way your chart looks in the Chart Inspector (&lt;&lt;add_a_chartcomma_customize_the_datacomma&gt;&gt;). To open it, click the Inspector button in the toolbar, and choose the Chart tab (third from the right). Your options in the Chart Inspector vary depending on the type of chart you choose. Turn on Show Title to add a description to your chart. Toggle Show Legend on or off to show information about what each part of the chart represents.
+
+[[add_a_chartcomma_customize_the_datacomma]]
+.Add a chart, customize the data, and make it shine with the Chart Inspector.
+image::figs/web/0407.png[]
+
+
+[[ch04note06]]
+
+[WARNING]
+====
+If you managed to get Author working on Mac OS X Snow Leopard or earlier, you don’t get to play with the 3D chart options. These depend on the Scene Kit framework, available in OS X Lion. It may seem like you can add one, but Author slows to a crawl and your chart just looks like a garbled mess.
+
+
+====
+
+
+
+[[widgets-id00003]]
+=== Widgets
+
+Widgets are special sidebars tailored for specific kinds of content. Use them to add image galleries, slideshows, video and audio, and more.
+
+
+[[ch04note99]]
+
+[WARNING]
+====
+If you add a widget to the first page of a chapter, it won’t appear in portrait orientation.
+
+
+====
+
+
+All the widgets have the same boring formatting by default, but you can customize them using the tools in the Graphic Inspector—for example, by adding a stroke or picture frame, a custom background color, and so on. However, Author will remove any custom background colors when the book is in portrait orientation, so white or light-colored text probably isn’t a good idea.
+
+
+[[gallery]]
+==== Gallery
+
+With the Gallery widget, you can package multiple images in a single sidebar to create a mini photo gallery. Click Widgets in the Toolbar, and choose Gallery. Author adds an empty sidebar to your page, with some placeholder text and a spot for you to add images. Drag an image onto the picture icon in the sidebar to add it to your gallery, and keep dragging images one on top of the other to add them all.
+
+With the Widget Inspector, you can change the layout of your Gallery sidebar and add or remove images. There are two tabs: Layout and Interaction. See &lt;&lt;figures&gt;&gt; for the details about the Layout tab. One important checkbox here for galleries is the Caption—you can set all the images in your gallery to share one caption or add a different caption for each one. Use the arrows in the bottom left and right corners to navigate between images, and click the caption placeholder text to add your own caption.
+
+[[ch04note07]]
+[NOTE]
+====
+You can add different captions for each image, but you can only have one title for your Gallery sidebar (if you choose to have a title at all—see &lt;&lt;images&gt;&gt;).
+
+
+====
+
+
+Head over to the Interaction tab to add or remove images from your Gallery and to add an Accessibility Description for each image (&lt;&lt;add_or_remove_images_from_your_gallery_v&gt;&gt;). Turn on the Show Thumbnails checkbox at the top to add thumbnails of your Gallery images to the bottom of your sidebar, to give your readers a visual way to navigate between them.
+
+[[ch04note08]]
+[TIP]
+====
+You can’t make a Gallery full-screen only.
+
+
+====
+
+
+[[add_or_remove_images_from_your_gallery_v]]
+.Add or remove images from your Gallery via the Interaction tab in the Widget Inspector. Turn on Show Thumbnails to add a row of icons below your gallery for easy navigation. Make sure you also remember to add an accessibility description.
+image::figs/web/0408.png[]
+
+
+[[media]]
+==== Media
+
+To add a movie or audio file, click Widgets in the Toolbar, and choose Media. Author immediately plunks a special box in the middle of your page, prefilled with a placeholder title, a spot for the file, and a placeholder caption or description. Grab any of the nontext areas of the box, and drag it to the desired location on your page (&lt;&lt;you_can_add_an_audio_or_video_file_in_ju&gt;&gt;).
+
+[[ch04note09]]
+[NOTE]
+====
+You can ditch the Media Widget and just drag and drop an audio or video file right from Finder or the Media Browser onto a blank spot in your book, but the end result is the same. With the drag and drop method, Author adds the media file within a figure box (&lt;&lt;figures&gt;&gt;), which you can change in the Widget Inspector.
+
+
+====
+
+
+[[you_can_add_an_audio_or_video_file_in_ju]]
+.You can add an audio or video file in just a few clicks and drags.
+image::figs/web/0409.png[]
+
+Author only supports one movie format—_.m4v_ (H.264)—and one audio format—_.m4a_ (AAC). If your files aren’t already in this format, you can convert them fairly painlessly.
+
+For audio files, open the file in iTunes. Right-click or control-click on the file name, and choose “Create AAC Version” from the context menu. There are then a couple of ways for you to get the file into your book. You can use Author’s Media Browser—click the icon in the top right corner of the Toolbar, and navigate to your movie file. The Media Browser doesn’t give you a lot of information about the files it finds, though, so if you have multiple movies with the same name (for example, if you made a copy with a different file type but didn’t rename the file), it’s hard to tell which file is the right one without a lot of trial and error. For a sure-fire way to get the right file, drag it from Finder. Right-click or control-click on your converted file in iTunes, choose “Show in Finder,” and drag the file from the Finder window that pops open into your book.
+
+[[ch04note999]]
+[NOTE]
+====
+ You may need to make some changes to your iTunes Preferences to get  the “Create AAC Version” option. Here's a tutorial from Apple about changing those settings:  link:$$http://support.apple.com/kb/HT1550$$[].
+
+
+====
+
+
+For movies, open the file in QuickTime, and choose Share → iTunes.... For a smaller file size, choose the iPhone setting; for larger, choose AppleTV (or Computer, if it gives you the option). Use the same methods to add the file to your book as you would for audio.
+
+As with all placeholder text, click on it once to select the whole passage, and type or paste your own text instead. Once you’ve added all your text, resize the media box so it fits everything and doesn’t have too much white space.
+
+To create a custom label for your widgets—for example, if you’ll be adding a series of lectures throughout your book that you want labeled “Lecture”—go to the Layout tab of the Widget Inspector (&lt;&lt;create_your_own_custom_label_for_your_wi&gt;&gt;). Choose Edit Label Styles from the Label drop-down, and click the + button in the list that appears to add a new label. Give it a new name, set a numbering style and a character style in the two boxes on the right, and then click Done.
+
+[[create_your_own_custom_label_for_your_wi]]
+.Create your own custom label for your widgets from the Layout tab of the Widget Inspector. Your new label will appear in the Label drop-down menu for all your widgets.
+image::figs/web/0410.png[]
+
+[[pro_tips_watch_your_file_size]]
+.Watch Your File Size
+****
+Watch Your File Size Movies are pretty big files—usually at least dozens of megabytes large, if not a gigabyte or more. (To give you some context, the average O’Reilly Media ebook is about 10 megabytes.) This means that every media file you add is going to bump up your book’s file size exponentially, making it take longer to load on your readers’ iPads and taking up more of their storage space. Your best bet is to limit yourself to just a few video clips where they’re most needed. If you’ve got a lot of large videos that are crucial to the book, consider releasing them as a supplemental movie or a webcast.
+
+
+****
+
+
+
+[[review]]
+==== Review
+
+Quiz your readers along the way with Review widgets (&lt;&lt;surecomma_you_can_add_plain_old_multiple&gt;&gt;). These handy little boxes let you build multipage question-and-answer exercises that you can place anywhere in your book. To use, click Widgets in the Toolbar, then choose Review. Author inserts a special sidebar on your page with one test question filled with placeholder text. You can add as many questions as you like to this box, and readers can use the arrows at the bottom of the box to move from question to question.
+
+There are six different styles of quiz questions: basic multiple choice, three kinds of multiple choice with an image, adding text labels to an image, and adding image labels to an image. To add a question to your sidebar using one of the other styles, use the Widget Inspector. Author should automatically open the Widget Inspector as soon as you insert your Review box, but you can also open it yourself by clicking the Inspector button in the Toolbar and going to the Widget tab (the very last icon along the top).
+
+Use the + and – buttons to add or delete questions. When you click the + button, you’ll get a drop-down list of all the styles. Choose one, and Author opens it up in your Review box, and also adds it to the list in the Widget Inspector. You can change the number of possible answers by choosing a different number from the dark gray box to the right of the question. To change the actual question text and answer options, just type over the placeholder text in the Review box. For questions that involve images, drag the image you want from the Finder or from the Media Browser into the appropriate image box (marked with the usual little picture frame icon).
+
+The image containers act like masks right off the bat (see &lt;&lt;mask&gt;&gt;), but click the image to adjust the mask slider or reposition your image within the mask.
+
+[[ch04note10]]
+[NOTE]
+====
+Your image must fit the full width of the Review box, so if you’re trying to adjust the size and it seems frozen, it means you’re probably at exactly the minimum width; adjusting the size of the Review box itself should do the trick.
+
+
+====
+
+
+Author labels the Review box with a number and caption. Type over the caption placeholder text to add your own, or to get rid of it entirely, go to Layout in the Widget Inspector, and turn off the Title checkbox.
+
+[[surecomma_you_can_add_plain_old_multiple]]
+.Sure, you can add plain old multiple choice quizzes, but you can also spice up your review widgets with interactive images and labels.
+image::figs/web/0411.png[]
+
+
+[[keynote]]
+==== Keynote
+
+Remember that great presentation you put together using Apple’s Keynote application? Well, you can include that in your book, too! Click the Widgets button in the Toolbar and choose Keynote. Once again, Author drops a box into the middle of your page that looks like all the other widget boxes, with the label “Presentation.” Drag a Keynote file into the middle of the sidebar, and it’s now embedded in your book (&lt;&lt;adding_a_slideshow_to_your_book_is_a_gre&gt;&gt;).
+
+You can edit all the usual formatting options via the Widget Inspector, but this is really where the “Full-screen only” option shines, letting your readers jump to a full-screen view of your presentation at will.
+
+[[adding_a_slideshow_to_your_book_is_a_gre]]
+.Adding a slideshow to your book is a great way to spice up your reader’s learning experience.
+image::figs/web/0412.png[]
+
+[[mac_corner_i_love_powerpointexclamation]]
+.I Love PowerPoint!
+****
+I Love PowerPoint! Sadly for you, Author only accepts Keynote files, not PowerPoint. The good news, however, is that Keynote will gladly open a PowerPoint file and convert it for you. To do so, either right-click your PowerPoint file in Finder and choose Open With... → Keynote, or open Keynote, go to File→Open, and choose your presentation from the menu. Your presentation should import seamlessly, but if Keynote encounters any errors, it’ll open up a Warnings window to tell you what happened. Scan through your slides to make sure everything looks okay, and then choose File→Save As to save your file as a Keynote presentation that you can add to your Author book.
+
+Don’t have Keynote? It’s only $19.99 from Apple’s App Store.
+
+
+****
+
+
+
+[[interactive_image]]
+==== Interactive Image
+
+If you’ve got a really big image with a lot going on, it might make more sense to add it as an Interactive Image. With this widget, you can tag different parts of an image with their own descriptions and custom zoom levels (&lt;&lt;with_interactive_imagescomma_you_can_gui&gt;&gt;).
+
+To add one, click the Widgets button in the Toolbar and choose Interactive Image. It comes equipped with two interactive labels, but you can add or subtract as needed. Drag your image into the middle of the box, and then start adding interactivity. Click a label and Author will arbitrarily zoom in to a random place on your image; adjust the zoom slider and drag your image until you get it right. Click to edit the text label and description, and then click “Set View.” Repeat with the second label, and add more with the + button next to the zoom slider. Don’t forget to set a default view, too.
+
+It can get a little dizzying with all the clicking and zooming in and out. For a more controlled experience, use the Widget Inspector. The Layout tab has the usual options, but the Interaction tab gives you a text-based way to control your sidebar. You’ll see all your labels listed in the Views box—click one to see its settings and make changes, and drag the labels up and down in the Views box to rearrange them. You can also add accessibility descriptions for each view in your image, and for each part of the view (Label Title, Label Description, and Label Target).
+
+Turn on the “Show transport controls” checkbox to give your readers another way to interact with your image, using little buttons at the bottom of the sidebar. “Show descriptions in sidebar” will add the descriptions for your labels as sidebars running along the edge of your image, instead of expanding the label.
+
+[[with_interactive_imagescomma_you_can_gui]]
+.With interactive images, you can guide your readers through different parts of a large image, giving them details along the way. Here you see the default view for an interactive image (left) and the view for one of the labels (right).
+image::figs/web/0413.png[]
+
+
+[[threed]]
+==== 3D
+
+Add 3D Collada (_.dae_) files to your book that readers can look at from every angle (&lt;&lt;use_3d_widgets_to_include_interactive_3d&gt;&gt;). Collada files can be created with a few different kinds of software, including Google SketchUp Pro (but not the free version, unfortunately). For more about Collada, check out Wikipedia: link:$$http://en.wikipedia.org/wiki/COLLADA$$[]. Author’s 3D Widget capability is powered by the Scene Kit framework, new in Mac OS X Lion (10.7), which means if you managed to get Author working on OS X Snow Leopard or earlier, you’re out of luck when it comes to 3D Widgets (and 3D charts, for that matter—see &lt;&lt;charts&gt;&gt; above).
+
+To add a 3D widget, go to Widgets → 3D. Move the box wherever you want, and drag your Collada file to add it. Aside from the Layout options, the Widget Inspector only really gives you one more choice for 3D widgets—how to rotate it. Choose Free Rotate to let readers rotate in any direction, or choose Horizontal or Horizontal and Vertical for a more sedate rotation. If you turn on “Auto-rotate object when idle,” your object will spin about lazily even when readers aren’t using it.
+
+[[use_3d_widgets_to_include_interactive_3d]]
+.Use 3D widgets to include interactive 3D models in your book. Add the widget to your book in the normal fashion (top), and readers can drag over the image to see it from every angle (bottom). (Image courtesy of Anthony Scavarelli, __.)
+image::figs/web/0414.png[]
+
+
+[[html]]
+==== HTML
+
+If none of the other Widgets do it for you, you can create your own in the Dashcode application, using HTML. Dashcode comes installed on all new Macs these days, and Apple put together a tutorial to walk you through building your own widget in Dashcode, available here: link:$$http://bit.ly/yEqA1B$$[].
+
+[[ch04note11]]
+[NOTE]
+====
+Make sure your _.wdgt_ file includes a _Default.png_ file to display when the HTML Widget is inactive.
+
+
+====
+
+
+HTML widgets work the same as all the others: Drag and drop Dashcode Widget files (_.wdgt_) into the box, and edit the layout options on the Layout tab in the Widget Inspector. HTML widgets can only appear full-screen in your book (they’ll appear as small buttons or sidebars in the text), and if you want to test out the widget, click the Edit HTML button. The button label is deceiving—this doesn’t open a code editor, but instead gives you a preview of your widget in full-screen mode (&lt;&lt;create_your_own_widget_with_html_and_add&gt;&gt;).
+
+[[create_your_own_widget_with_html_and_add]]
+.Create your own widget with HTML and add it to your book. (You can play with the widget pictured here in _HTML5 for Publishers_ by Sanders Kleinfeld, also free and available from O’Reilly [link:$$http://shop.oreilly.com/product/0636920022473.do$$[]].)
+image::figs/web/0415.png[]
+

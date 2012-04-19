@@ -1,0 +1,270 @@
+
+[[tour]]
+== Tour
+
+
+[[template_chooser]]
+=== Template Chooser
+
+The first thing you see when you open iBooks Author is the Template Chooser (&lt;&lt;when_starting_a_new_book_projectcomma_yo&gt;&gt;). This is where you choose the general look of your book. You have six options: Basic, Contemporary, Modern Type, Classic, Editorial, and Craft. Each template has its own predefined styles and graphics for you to use. Most parts of the template can be changed, but not all. Only you can decide which template is right for you, but when you do, click it and select “Choose,” and Author opens up a brand new project for you, filled in with three or so spreads and dummy text.
+
+[[when_starting_a_new_book_projectcomma_yo]]
+.When starting a new book project, your first step is to pick a template from the Template Chooser.
+image::figs/web/0101.png[]
+
+[[pro_tips_lorem_whatsumquestion_mark]]
+.Lorem Whatsum?
+****
+Lorem Whatsum? Author automatically fills the first few pages of your project with placeholder text commonly referred to as “lorem ipsum” in the publishing and design worlds. The exact origins of lorem ipsum as a placeholder are foggy, but can be traced back to at least the 1960s, and might even go as far back as the 1600s. The text itself is a chopped-up version of sections 1.10.32–3 of link:$$http://en.wikipedia.org/wiki/Cicero$$[Cicero’s] _De finibus bonorum et malorum._ There’s some debate in design circles about the benefits of using nonsensical placeholder text versus real content to help preview your layout, but if you want to add some lorem ipsum of your own, go to link:$$http://www.lipsum.com/$$[].
+
+
+****
+
+
+If you have second thoughts about your selection or clicked the wrong icon by mistake, don’t sweat it. Just click the red x in the top left corner of the editing screen, and then go to File → New from Template Chooser, which brings you back to—you guessed it—the Template Chooser.
+
+[[ch01note01]]
+[NOTE]
+====
+Interestingly, choosing File → New accomplishes exactly the same thing: bringing you back to the Template Chooser. If you want a blank slate for ultimate customization, the Basic template is the closest you can come.
+
+
+====
+
+
+
+[[editing_window]]
+=== Editing Window
+
+Your next stop after the Template Chooser is the editing window. This is where you’ll spend the bulk of your time in Author, adding text and images and making your book look amazing. The editing window is divided into a few sections. The majority of it is devoted to your book. The panel on the left by default shows thumbnails of all the pages in your book, as well as a few options with basics like the title page and table of contents and extras like a glossary and media to add as an intro for your book.
+
+To resize the editing window so it takes up more or less of your computer screen, just grab the resize handle in the lower right corner and drag to the desired size.
+
+The editing window consists of a few sections by default: the Toolbar, the Format Bar, and your book pages.
+
+
+[[toolbar]]
+==== The Toolbar
+
+Running along the top of the editing window is the Toolbar (&lt;&lt;toolbar_lets_you_keep_your_favorite_tool&gt;&gt;). This gives you quick access to some of the main tools you’ll be using. Your default tools in the Toolbar are: Add Pages (see &lt;&lt;adding_pages&gt;&gt;), View (see below), Orientation (see &lt;&lt;orientation&gt;&gt;), Text Box (see &lt;&lt;text_boxes&gt;&gt;), Shapes (see &lt;&lt;shapes&gt;&gt;), Table (see &lt;&lt;tables&gt;&gt;), Charts (see &lt;&lt;charts&gt;&gt;), Widgets (see &lt;&lt;widgets-id00003&gt;&gt;), Preview (see &lt;&lt;previewing_your_book_on_the_ipad&gt;&gt;), Publish (see &lt;&lt;submitting_your_book_to_the_ibookstore&gt;&gt;), Inspector (see &lt;&lt;inspector&gt;&gt;), Media, Colors, and Fonts.
+
+[[toolbar_lets_you_keep_your_favorite_tool]]
+.The Toolbar lets you keep your favorite tools at your fingertips. The Format Bar is your first stop to adjust the formatting of the elements on your page.
+image::figs/web/0102.png[]
+
+Apple knows that the default tools aren’t going to cut it for everyone, so they give you an option to add (or remove) almost anything you want to the Toolbar. Go to View → Customize Toolbar... and drag any of the tools that you want to have at hand onto the Toolbar (see &lt;&lt;choose_your_favoritecomma_most-used_tool&gt;&gt;). If you want to clear out your customizations, from the Customize Toolbar dialog box, drag the default set onto your Toolbar (outlined near the bottom of the dialog box).
+
+[[choose_your_favoritecomma_most-used_tool]]
+.Choose your favorite, most-used tools from the Customize Toolbar dialog (View → Customize Toolbar...). The default set of tools is outlined at the bottom of the dialog; click anywhere inside it and drag to the Toolbar to undo your customizations.
+image::figs/web/0103.png[]
+
+
+[[view]]
+===== View
+
+The View button on the Toolbar lets you adjust the different parts you see in the editing window:
+
+
+* _Page Thumbnails._Choose this to show small page icons (called thumbnails) in the Book menu. You can choose either this or Book Outline, but not both, and you must choose one.
+
+
+* _Book Outline._Instead of thumbnails, display the parts of your book in outline format.
+
+
+* _Glossary Toolbar._Adds an extra toolbar below the main Toolbar, so that you can quickly add new glossary terms on the fly (see &lt;&lt;glossary&gt;&gt;).
+
+
+* _Show/Hide Styles Drawer._Toggles the Styles Drawer open or closed. The Styles Drawer has all the built in or custom text styles for you to choose from. More on those in &lt;&lt;styles_and_the_styles_drawer&gt;&gt;.
+
+
+* _Show/Hide Layouts._Inserts a new box at the top of the Book menu, with all the different page options for your chosen layout. Clicking one of the thumbnails gives you a preview of what that page layout looks like. There’s more on applying new layouts and adding pages in &lt;&lt;layouts&gt;&gt;.
+
+
+* _Show/Hide Format Bar._Controls whether or not the Format Bar shows up at the top of the screen (see &lt;&lt;format_bar&gt;&gt;).
+
+
+* _Show/Hide Rulers._Displays rulers along the top and left edge of your page display. Rulers come in handy when you’re working with paragraph indents and tabs (&lt;&lt;tabs&gt;&gt;), and when you’re adjusting the layout of your pages (see &lt;&lt;creating_complex_layouts_left_parenthesi&gt;&gt;).
+
+[[ch01note02]]
+[TIP]
+====
+To change the units of measurement used in your rulers, go to Author → Preferences...  → Rulers, and choose the style you prefer (inches, centimeters, points, or picas).
+
+
+====
+
+
+
+* _Show/Hide Layout Boundaries._Turning this option on reveals the edges of your various frames, which is useful when arranging the elements on your pages, seeing where things overlap, and getting them in proportion.
+
+
+* _Show/Hide Invisibles._Shows hidden text markers and characters that are usually invisible. When you turn this on, spaces between words show up as small blue dots and you get a special glyph to mark the ends of all your paragraphs. Text fields—strings of text that are used in multiple places, like chapter and section titles—are marked with a blue border.
+
+
+[[orientation]]
+===== Orientation
+
+The two buttons here let you toggle between portrait and landscape mode (&lt;&lt;page_in_landscape_mode_left_parenthesisl&gt;&gt;). Portrait mode includes a very pared-down display of your content: all widgets appear as small icons in the margin and text scrolls up and down like a web page. Landscape mode is where you’ll do most of your work. You can create a book entirely in portrait mode without any bells and whistles, but why not take full advantage of iBooks Author, and create both a kinds of pages? See &lt;&lt;assembling_the_pages&gt;&gt; in &lt;&lt;book_building_basics&gt;&gt; for more about the two different orientations.
+
+
+[[ch01note99]]
+
+[WARNING]
+====
+Some graphics and text boxes don’t show up at all in portrait view, so be careful. See the warning in &lt;&lt;anchors&gt;&gt; for details.
+
+
+====
+
+
+[[page_in_landscape_mode_left_parenthesisl]]
+.A page in landscape mode (left) and portrait mode (right). Your graphic layout items disappear in portrait, and widgets get pulled into the margin as icons.
+image::figs/web/0104.png[]
+
+
+[[inspector]]
+===== Inspector
+
+The Inspector is one of the most useful tools in the Toolbar, though it may not seem like it at first. Here you find tools to add metadata (see &lt;&lt;document_inspector&gt;&gt; at the end of this chapter); adjust the overall page layout (&lt;&lt;layouts&gt;&gt;); customize text wrap on objects; format text (&lt;&lt;text_inspector&gt;&gt;), graphics (&lt;&lt;images&gt;&gt;), and tables (&lt;&lt;tables&gt;&gt;); adjust charts (&lt;&lt;charts&gt;&gt;); add internal and external hyperlinks and bookmarks (&lt;&lt;links&gt;&gt;); and drastically reformat widgets (&lt;&lt;widgets&gt;&gt;) and objects (&lt;&lt;objects&gt;&gt;).
+
+
+[[format_bar]]
+==== The Format Bar
+
+Running just below the Toolbar is the Format Bar (&lt;&lt;format_bar_contains_basic_formatting_too&gt;&gt;). The options here change depending on what you have selected, but they generally offer some basic ways to modify whatever the selected object is. For example, if you select some text, you’ll have quick access for changing the paragraph or character styles (&lt;&lt;styles_and_the_styles_drawer&gt;&gt;); the font, text, and background colors; the font style (bold, italic, or underline); the alignment; the line spacing; the number of columns; and whether or not to style it as a list (see &lt;&lt;formatting_text&gt;&gt; in &lt;&lt;text&gt;&gt; for more on all of these things). If you click on a text box or graphic, the options change to customize the border and fill, opacity, and drop shadow; how to anchor the box; and how to wrap text around it (see &lt;&lt;objects&gt;&gt; for more on formatting boxes and graphics).
+
+[[format_bar_contains_basic_formatting_too]]
+.The Format Bar contains basic formatting tools that change based on your selection, like text (top) and graphics (bottom).
+image::figs/web/0105.png[]
+
+
+[[zoom]]
+==== Zoom
+
+To get a bird’s-eye view of your layout, or to get up close and personal, you can use the zoom controls at the bottom of the editing window. There are a few options to choose from, including “Fit Width,” which zooms the pages in or out to exactly the width of a page, cropping the page vertically as needed, and “Fit Page,” which adjusts to fit the whole page both vertically and horizontally. If you choose one of the “Fit...” options, the page will automatically adjust to the window no matter how you resize it.
+
+
+[[navigation]]
+==== Navigation
+
+Next to the zoom controls are two little arrows and a gear icon for navigating your book (&lt;&lt;use_the_zoom_and_navigation_tools_to_see&gt;&gt;). The arrows will jump you between chapters, sections, or pages within sections of your book. Click the gear icon to choose what level you want to navigate between. You can also choose to jump between figures (&lt;&lt;figures&gt;&gt;), glossary terms (&lt;&lt;glossary&gt;&gt;), and bookmarks (&lt;&lt;links&gt;&gt;), and also between every occurrence of a particular paragraph or character style (&lt;&lt;styles_and_the_styles_drawer&gt;&gt;).
+
+[[use_the_zoom_and_navigation_tools_to_see]]
+.Use the zoom and navigation tools to see your pages in finer detail and to customize how you jump from section to section.
+image::figs/web/0106.png[]
+
+
+[[book_menu]]
+==== The Book Menu
+
+All of your major book pieces are right at your fingertips here in the left portion of the screen. You’ve got four supplemental pieces—title page, Intro Media, Table of Contents, and Glossary—followed by either your page thumbnails or book outline, depending on which option you chose from the View button in the toolbar (see &lt;&lt;view&gt;&gt;).
+
+
+[[book_title]]
+===== Book Title
+
+Click the Book Title option in the Book menu and your book’s title page opens up in the main editing window. This is where you set some of the basic pieces of information about your book: Title, Edition Number, and Author. There are two ways to change your book title: with the Book Title already selected, click once again on the Book Title Book menu item, and the text there becomes editable—change it to whatever you want, and the title page will update to match. The opposite also works: edit the text on the title page, and the Book menu updates (see &lt;&lt;there_are_two_ways_to_change_your_book_t&gt;&gt;).
+
+[[ch01note03]]
+[TIP]
+====
+If you go the second route, make sure you’re editing the field text, and not just appending extra text to it. Your visual clue is the blue outline that shows up around the words as you’re typing.
+
+
+====
+
+
+[[there_are_two_ways_to_change_your_book_t]]
+.There are two ways to change your book title: in the Book menu (top) or on the title page (bottom).
+image::figs/web/0107.png[]
+
+There’s only one way to update the author name and edition number: via the title page. You can see there are two more text fields on that page: edit the field at the very top to change the edition number, and edit the field at the bottom to change the author name.
+
+
+[[intro_media]]
+===== Intro Media
+
+You can add an image, audio file, or movie to introduce your book. If you choose to include this, the first time a reader opens your book in iBooks, she’ll see just that intro file on a black background. If you’ve chosen an audio file or movie, it’ll start playing automatically, but readers can stop it at any time by clicking the little x in the top left corner of the iBooks page. To add some intro media, click the Intro Media item in the Book menu, and then drag your image, audio, or movie file from Finder or the Media Browser onto the black background. You can move images or movies around on the screen, but audio files are stuck centered vertically. Author also only supports limited media file formats—see &lt;&lt;media&gt;&gt; for the full scoop.
+
+
+[[table_of_contents]]
+===== Table of Contents
+
+No need to worry about compiling a list of all the chapters and sections in your book—iBooks Author automatically generates a table of contents for you as you write (see &lt;&lt;page_from_your_bookapostrophes_table_of&gt;&gt;). You can see the latest TOC by clicking &lt;&lt;table_of_contents&gt;&gt; in the Book menu. iBooks pulls in the first image from each chapter in the TOC, but you can change that—just drag a new image from the Finder window onto the image box, and adjust it as described in &lt;&lt;images&gt;&gt;. You can’t edit any of the auto-generated text on the TOC, but you can add new text boxes if you want—perhaps a short paragraph explaining what that chapter is about. Author adds a new TOC page for each Chapter in your book. (You can add more levels to your TOC—see &lt;&lt;document_inspector&gt;&gt;.) When you click on Table of Contents in the Book menu, Author will take you to the TOC page for whatever chapter you were last working on, but you can navigate to the TOC page for different chapters by clicking the little dots at the bottom of the editing window.
+
+Don’t worry about those little gray boxes at the bottom of each TOC page. When you export your book, Author fills those boxes with icons of the first page of each chapter and each section within a chapter, giving readers both a textual list and a visual way to navigate to those locations.
+
+[[page_from_your_bookapostrophes_table_of]]
+.A page from your book’s Table of Contents as it appears in Author (top) and in iBooks (bottom). Use the little dots at the bottom of the screen to switch to the TOC pages for different chapters.
+image::figs/web/0108.png[]
+
+
+[[glossary]]
+===== Glossary
+
+iBooks Author has special tools just for educational books, such as the Glossary function. You can turn any word in your book into a glossary term with just a few clicks. Double-click to select a word, then right-click or Command-click, and choose “Create New Glossary Term from Selection” from the content menu (&lt;&lt;right-click_or_control-click_a_word_in_y&gt;&gt;). The word turns bold, which is your indication that it’s been added to your Book’s glossary.
+
+You can also add new glossary terms from the Glossary Toolbar (see &lt;&lt;use_the_glossary_toolbar_to_quickly_add&gt;&gt;), by either typing the term in the New Glossary Term box and clicking Add Term, or by double-clicking to select a word in the text and, instead of right-clicking on the word, clicking the Add Term button. Note that if you add a new term without selecting a word in the text first, that term won’t link to any locations in the book until you set one or more index locations (see below).
+
+[[right-click_or_control-click_a_word_in_y]]
+.Right-click or control-click a word in your book and choose “Create New Glossary Term from Selection” to create a new glossary term. The word turns bold to show that it’s been added to the Glossary. Click the term again to jump straight to the Glossary and add a definition.
+image::figs/web/0109.png[]
+
+Unfortunately, Author doesn’t take the trouble to define the term, too—that’s up to you (although once your book is finished and loaded into iBooks, readers have the choice of viewing the dictionary definition for a glossary term or the definition you add in the Glossary). Click on the word to jump straight to the Glossary (or click the Glossary item in the Book menu), where you can add a definition and see your full list of Glossary terms.
+
+You can link multiple terms together to give readers more guidance if they need it. Just drag other terms from your Glossary into the Related Terms section; to unlink a term, drag it out of the Related Terms section and it disappears in a puff of smoke.
+
+[[ch01note04]]
+[NOTE]
+====
+Adding Related Terms doesn’t work both ways. For example, if you drag the word “coffee” into the Related Terms section of the word “beverage,” “coffee” will be added there, but “beverage” will not be added as a Related Term for “coffee.”
+
+
+====
+
+
+The Index section tells you where you can find the term in your book. It only automatically links to the place in the book where you first chose to turn the word into a glossary term, but you can add as many index entries to other locations as you want. To do so, make sure you have the Glossary Toolbar displayed (from the View button in the Toolbar), then select the word or location in your text that you want to add a link to, choose the glossary term from the “Index link for” drop-down menu, and click Add Link. You can use the “Find Term” button from the Glossary to search the book for every occurrence of a glossary term (note that this is only an option in Author; readers have to search the book themselves), and add Index Links to any or all of the found results. This opens up Apple’s standard Find/Replace dialog box, auto-filled with your glossary term, and jumps you to the first occurrence of that word in your text. Every word that you turn into a glossary index link becomes a clickable link to that glossary definition.
+
+[[use_the_glossary_toolbar_to_quickly_add]]
+.Use the Glossary Toolbar to quickly add new glossary terms or add new index locations for existing terms.
+image::figs/web/0110.png[]
+
+You can add or delete glossary terms in the Glossary as well, by clicking the + and – buttons below the search bar. Author won’t let you create multiple glossary terms for the same word; if you right-click on another occurrence of a word that already has a Glossary definition, the “Create New Glossary Term from Selection” option is grayed out. And if you try to add the duplicate term via the Glossary, Author automatically appends the word “duplicate” to the end.
+
+
+[[page_thumbnails_and_book_outline]]
+===== Page Thumbnails and Book Outline
+
+Below the Book menu, Author lists the pages in your book either as thumbnail icons or in outline view, depending on the option you chose from the View button in the Toolbar. Click any thumbnail or list item to open that page in the editing window; Author also outlines all the sections in that chapter with a yellow box, letting you know where you are in your book.
+
+
+[[document_inspector]]
+==== Document Inspector
+
+Your first option when you open the Inspector is the Document Inspector, where you’ll find some fields to add information about your book and set some basics. In the first boxes in the Inspector, you can note the author name and the book title, add keywords about the book, and insert any special comments about it.
+
+The next section gives you some basic document data: word and character counts, number of pages and images in the book, and so on. You can get info for the entire document or just a selection.
+
+Turn on “Disable portrait orientation” if you don’t want readers to be able to read your book in portrait mode on their iPads. There’s an argument to be made for both leaving this off and turning it on: On the one hand, you want to give your readers control over their reading experience, but on the other hand, why bother creating a complex layout in iBooks Author just to let readers ignore all your work by reading in portrait mode?
+
+Turn off Hyphenate to keep your words from breaking across lines, and turn off “Use ligatures” to keep Author from adding ligature characters where it normally would. Ligatures are letters that run together to form one character. Some of the usual suspects are ff, fl, and fi. Turning off this checkbox keeps each letter separate, instead of combining them into one.
+
+The last option on this tab is “Require Password to Open.” You can password-protect your file using this checkbox; just make sure you share the password with anyone else who needs to open the file.
+
+Over on the TOC tab, you can customize your book’s Table of Contents by adding or removing section types and paragraph style types (&lt;&lt;add_basic_book_details_and_customize_the&gt;&gt;). By default, the TOC will include Chapters, Sections, and Headings. You can have it include text tagged with other paragraph styles by clicking the + button and choosing the style you want. For example, you can list every widget in the TOC by adding the Figure Title paragraph style to the list.
+
+[[ch01note05]]
+[NOTE]
+====
+Only chapters and sections appear in the TOC when you or your readers are in landscape mode; other paragraph styles appear when you switch to portrait orientation.
+
+
+====
+
+
+[[add_basic_book_details_and_customize_the]]
+.Add basic book details and customize the Table of Contents in the Document Inspector.
+image::figs/web/0111.png[]
+
+Now that you know your way around, it’s time to start adding pages and building your book.
+
