@@ -5,7 +5,7 @@
 [[template_chooser]]
 === Template Chooser
 
-The very very first thing you see when you open iBooks Author is the Template Chooser (&lt;&lt;when_starting_a_new_book_projectcomma_yo&gt;&gt;). This is where you choose the general look of your book. You have six options: Basic, Contemporary, Modern Type, Classic, Editorial, and Craft. Each template has its own predefined styles and graphics for you to use. Most parts of the template can be changed, but not all. Only you can decide which template is right for you, but when you do, click it and select “Choose,” and Author opens up a brand new project for you, filled in with three or so spreads and dummy text.
+The first thing you see when you open iBooks Author is the Template Chooser (&lt;&lt;when_starting_a_new_book_projectcomma_yo&gt;&gt;). This is where you choose the general look of your book. You have six options: Basic, Contemporary, Modern Type, Classic, Editorial, and Craft. Each template has its own predefined styles and graphics for you to use. Most parts of the template can be changed, but not all. Only you can decide which template is right for you, but when you do, click it and select “Choose,” and Author opens up a brand new project for you, filled in with three or so spreads and dummy text.
 
 [[when_starting_a_new_book_projectcomma_yo]]
 .When starting a new book project, your first step is to pick a template from the Template Chooser.
